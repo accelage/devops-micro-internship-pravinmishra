@@ -33,7 +33,7 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+My belief that others, don not sgree with - especially those who condemn themselves or their wards; is that no one is born a failure, I often see people comparing themselves or their kids to other people's kids; and it has always struck upon me to note their wards could also be better and smarter if only same dedication, opportunity, guidance and resources are made available to their wards too, as was made available to the ones they are being compared with. Above all, the internet and resources like youtube has made education without borders and anyone can achieve success if dedication is put in.
 
 ---
 
@@ -55,11 +55,14 @@ Write each truth in this format:
 
 ### Truth
 
-Add your answer here...
+Anything at rest remains at rest:
 
 ### Evidence from my life
 
-Add your answer here...
+Looking for a  pay raise? I had to take on courses. <br>
+I wanted to start a family? I had to get married. <br>
+To stay fit, grow muscles and abs? I had to hit the gym
+
 
 ---
 
@@ -67,11 +70,12 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Matters Change Forms at different Temperatures
 
 ### Evidence from my life
 
-Add your answer here...
+Liquids change to Solid like Ice at 0°C <br>
+Liquids change to Gas via Evaporation at 100°C
 
 ---
 
@@ -79,11 +83,12 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Time Reveals Everything
 
 ### Evidence from my life
 
-Add your answer here...
+Everybody will die some day<br>
+Tomorrow will become Today and Today will become Yesterday <br> 
 
 ---
 
@@ -135,13 +140,37 @@ Include this line:
 
 ## Your Article
 
-Add your answer here...
+*The Lagos Freelancer Who Taught AI to Speak Naija*  
+_By Tosin Adebayo, TechCabal | April 2031_
+
+Five years ago, Tope Davids as fondly called, was selling café tickets for people tending to surf the internet from a shop size café he managed with friends in Surulere. Today, his software built with AI tools run in 2000+ Nigerian POS shops and published on Playstore with over 8M users. 
+
+His exponential jump is something worth the discourse. A builder of reliable and resilient systems.
+
+*From Ticketer to Provider*  
+Tope got tired of just being called the café boy, selling timer tickets and fixing systems that does not connect to the routers. He birthed, tested and published his ideas of business problems and automated solutions. He shipped 3 LangChain tools in one Streamlit app instead of selling and customizing tickets for internet browsers. He didn’t just read about about AI and DevOps practices — He deployed an app checker that helps verify the genuity of the app against other fraudster looka-alikes. 
+
+App Publishers noticed his deployment, and appreciated the fact that with his platform; their users can ensure to have the right app installed on their mobile phones and not just another clone. This called in support and partnership with top businesses and multinationals.
+
+*The 2028 Shift: “Build for One Problem” *  
+Instead of chasing 10 industries, He went deep on finance only. His app checker and verifier was had followed compliance for PII and PCI. His codebase was also adapted for POS Commission Calculator and in 2030, Moniepoint & Opay (Nigeria’s giant fintechs) integrated it due to security level, the up-to-date delivery and deployment. Banks started licensing the code in their home-shipped app. 
+
+“People don’t buy AI,” they told TechCabal last month. “They buy time. A POS agent saves 2 hours/day. A bank app user secures his/her balance access if they logged in securely to the right app.”
+
+*What Changed in 3 Years*  
+1. *Perspective*: Dropped selling tickets for café users. Built a B2B and B2C solution that resolved banks and user pain points.
+2. *Credibility*: Every tool now ships with “Security I added” notes — PII redaction, API key vaults, input validation, 1024bit encryption, etc. That’s what got them into 3 fintech accelerator programs.
+3. *Income*: One product, many solutions. Same app codebase logic powers the app verifier and POS calculator.
+The source code can be forked and cloned from his Github portfolio.
+
+*The Quote That Stuck*  
+“I’m not an ‘AI expert’,” they said, fixing a timeout error live on stage at Lagos Startups Week. “I’m a Nigerian who got tired of bad tools and learned to build better ones.”
+
 
 ### Public Link
 
-Paste your link here:
 
-`__________________________`
+https://www.linkedin.com/posts/topedavids_the-lagos-freelancer-who-taught-ai-to-speak-share-7477685794443538432-EmvN/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA
 
 ---
 
@@ -173,7 +202,8 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+I once cut corners trying to by-pass a particular cost of something that got spoiled in my vehicle. It was my headlamp switch that went bad one evening while in transit home, so the roadside autoelectrician told me to buy the recommended switch, but to cut cost he told me I can adapt a low standard switch used in tricycles just for the meantime, which I accepted to be able to use the vehicle as the night falls. <br>I regretted that decision as the switch was not designed to take the headlamp load amperage without a relay. My car wires burned due to resistance mismatch ,my brainbox got an issue as it couldnt detect the component fixed. I spent huge far beyond the switch cost to get the car back to functional state. I got to realise looking similar does not mean it is the same.<br>
+
 
 ---
 
@@ -199,16 +229,26 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1. Art of Spending by Morgan Housel<br>
+![Assignment 5 Screenshot](screenshots/artofspending.jpg)
+2. Slow Productivity by Cal Newport <br>
+![Assignment 5 Screenshot](screenshots/slow_productivity.jpeg)
+3. Lead With Intent by Hermann Du Plessis<br>
+![Assignment 5 Screenshot](screenshots/lead.jpeg)
+4. Right Kind of Wrong by Amy Edmondson<br>
+![Assignment 5 Screenshot](screenshots/rightkind.jpeg)
+5. Outlive by Peter Attia<br>
+![Assignment 5 Screenshot](screenshots/outlive.jpg)
+6. Skills Advantage by Anish Lalchandani<br>
+![Assignment 5 Screenshot](screenshots/skillsadvantage.jpg)
+7. Power of Now by Eckhart Tolle<br>
+![Assignment 5 Screenshot](screenshots/powerofnow.webp)
+8. Atomic Habits by James Clear<br>
+![Assignment 5 Screenshot](screenshots/atomichabits.jpeg)
+9. Thinking Fast and Slow by Daniel Kahmena<br>
+![Assignment 5 Screenshot](screenshots/thinking.jpg)
+10. Deep Work by Cal Newport<br>
+![Assignment 5 Screenshot](screenshots/deepwork.webp)
 
 ---
 
@@ -237,15 +277,15 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+* Earning Hours not just Learning Sprints
+* My number of steps and vovered distance each day
+* password/credential security to stay cybersecure
+* My eight hours sleep
+* Productive hours tracking (developing/building, testing, deploying)
+* Reducing screen time/distractions.
+* Save more, reduce expenditure
+* track meetings with clients and not just spending time prospecting unsure leads
+* Health tracking, minimizing stree that could increase blood pressure or sugar levels
 * Add your answer here...
 
 ---
@@ -272,7 +312,13 @@ Examples:
 
 Answer:
 
-Add your answer here...
+Attempting week1 assignment of DMI;<br>
+Balance Payment of children school fees <br>
+Patching client website <br>
+My paused project <br>
+
+
+
 
 ---
 
@@ -290,7 +336,13 @@ Example:
 
 #### My Weekly Routine
 
-Add your answer here...
+* Mon: Reading and Trying Labs
+* Tue: Attempting my assignments
+* Wed: Perfecting posts and articles
+* Thu: Available for co-mentor sessions
+* Fri: Ensuring I have met deadlines and submitted all works
+* Sat: DMI live class/session
+* Sun: Light Recess and recap
 
 ---
 
@@ -298,11 +350,11 @@ Add your answer here...
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+Aside Saturday Marathon class; I will do DMI classes by 9pm - 11pm althrough the week
 
 #### How Many Sessions Per Week?
 
-Add your answer here...
+Five sessions to build consistency and confidence.
 
 ---
 
@@ -316,7 +368,10 @@ Examples:
 
 #### My Distraction Rules
 
-Add your answer here...
+* No movies/screen time
+* No family distraction (sleep time)
+* No calls and phones
+* No late night hangout with friends
 
 ---
 
@@ -324,28 +379,29 @@ Add your answer here...
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+Engineers follow instructions thoroughly and doing is the real learning, not just consuming books and courses. Just in this week that we started, I have understand beyond theory why we FORK someone's project (like a Manager)  to our profile, CLONE to our local machine, and how to connect my github to VScode; and also push my updates from local to remote.
+Also keeping track of my progress in the main Readme.md file makes me simulate processes projects go through from in the pipeline, Start to In-Progress to Completion.
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+I keep consuming courses and I do less practices that makes one perfect and confident. So now, am seeing myself doing and it helps my theory solidify.
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+Keeping up with my Learning Journal and postings to keep myself as an authority in DevOps. My postings would be done before noon daily.
 
 ### LinkedIn Post
 
 Paste your LinkedIn post link here:
 
-`__________________________`
+`https://www.linkedin.com/posts/topedavids_the-lagos-freelancer-who-taught-ai-to-speak-share-7477685794443538432-EmvN/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA`
 
 ---
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
+- LinkedIn Post URL: **[My LinkedIn post](https://www.linkedin.com/posts/topedavids_the-lagos-freelancer-who-taught-ai-to-speak-share-7477685794443538432-EmvN/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA)**  
+- Blog / Medium : **[My Medium Post](https://medium.com/@tope.adedavids/my-devops-micro-internship-journey-c6fef43de015?sharedUserId=tope.adedavids)**  
 
 ---
 

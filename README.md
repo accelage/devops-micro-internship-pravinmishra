@@ -1,9 +1,9 @@
 # DevOps Micro Internship with Agentic AI — My Journey
 
 ![Cohort](https://img.shields.io/badge/Cohort-3-blue?style=for-the-badge)
-![Program](https://img.shields.io/badge/DevOps_Micro_Internship-Pravin_Mishra-orange?style=for-the-badge)
+![Program](https://img.shields.io/badge/DevOps_Micro_Internship-Temitope_ADEMOLA_DAVIDS-orange?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge)
-![Weeks](https://img.shields.io/badge/Weeks_Completed-0%2F15-green?style=for-the-badge)
+![Weeks](https://img.shields.io/badge/Weeks_Completed-2%2F15-green?style=for-the-badge)
 
 > 👋 **New here?** Read the [submission instructions](./INSTRUCTIONS.md) first — how to fork, fill in, and submit your assignments.
 
@@ -13,11 +13,11 @@
 
 | | |
 |---|---|
-| **Name** | Pravin Mishra |
-| **LinkedIn** | [pravin-mishra-aws-trainer](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) |
-| **Location** | Helsinki, Finland |
-| **Background** | Cloud, DevOps & AI Consultant |
-| **Goal** | Train 10,000+ DevOps professionals |
+| **Name** | Temitope Ademola-Davids |
+| **LinkedIn** | [topedavids](https://www.linkedin.com/in/topedavids/) |
+| **Location** | Ikeja/Lagos (available for remote role) |
+| **Background** | Cybersecurity, Cloud, DevOps & AI |
+| **Goal** | Hone my practical Devops skill, shipping quality softwares in shortest time using Agile and DevOps processes. |
 
 ---
 
@@ -64,13 +64,13 @@ This is not a course. It is an internship-style program — real deployments, re
 
 ---
 
-**Your stack (uncomment each badge as you earn it):**
+**My stack**
 
-<!-- Week 00 → Internet & Networking Basics -->
-<!-- [![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/) -->
+ **Week 00** → Internet & Networking Basics
+ [![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/) 
 
-<!-- Week 01 → Success Mindset -->
-<!-- [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/) -->
+ **Week 01** → Success Mindset
+ [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/)
 
 <!-- Week 02 → Agentic AI with Claude Code -->
 <!-- [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) -->
@@ -111,7 +111,7 @@ This is not a course. It is an internship-style program — real deployments, re
 <!-- Week 14 → Final Project / Capstone -->
 <!-- [![Week 14 – Capstone](./badges/week-14.svg)](./week-14-final-project/) -->
 
-*Complete a week → uncomment the badge → watch your stack grow.*
+<!-- *Complete a week → uncomment the badge → watch your stack grow.* -->
 
 ---
 
@@ -132,8 +132,8 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
-| 01 | Success Mindset | ⬜ Not Started | ⏳ Pending | — | — |
+| 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/topedavids_pravin-mishra-the-cloudadvisory-linkedin-activity-7448018134445395968-CFUf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA | — |
+| 01 | Success Mindset | ✅ Completed | ✅ Solved |https://www.linkedin.com/posts/topedavids_devops-is-not-a-job-title-or-roleits-a-activity-7478024390933344256-WZTj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA| https://medium.com/@tope.adedavids/my-devops-micro-internship-journey-c6fef43de015?sharedUserId=tope.adedavids | 
 | 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
 | 03 | Linux for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
 | 04 | Bash Scripting | ⬜ Not Started | ⏳ Pending | — | — |
