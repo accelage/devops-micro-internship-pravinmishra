@@ -246,7 +246,7 @@ Choose books that improve:
 8. Atomic Habits by James Clear<br>
 ![Assignment 5 Screenshot](screenshots/atomicHabits.jpeg)
 9. Thinking Fast and Slow by Daniel Kahmena<br>
-![Assignment 5 Screenshot](screenshots/Thinking.jpg)
+![Assignment 5 Screenshot](screenshots/Thinking.JPG)
 10. Deep Work by Cal Newport<br>
 ![Assignment 5 Screenshot](screenshots/deepWork.webp)
 
