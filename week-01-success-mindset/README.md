@@ -230,25 +230,25 @@ Choose books that improve:
 ## Book List
 
 1. Art of Spending by Morgan Housel<br>
-![Assignment 5 Screenshot](screenshots/artofspending.jpg)
+![Assignment 5 Screenshot](screenshots/artOfSpending.jpg)
 2. Slow Productivity by Cal Newport <br>
 ![Assignment 5 Screenshot](screenshots/slow_productivity.jpeg)
 3. Lead With Intent by Hermann Du Plessis<br>
 ![Assignment 5 Screenshot](screenshots/lead.jpeg)
 4. Right Kind of Wrong by Amy Edmondson<br>
-![Assignment 5 Screenshot](screenshots/rightkind.jpeg)
+![Assignment 5 Screenshot](screenshots/rightKind.jpeg)
 5. Outlive by Peter Attia<br>
 ![Assignment 5 Screenshot](screenshots/outlive.jpg)
 6. Skills Advantage by Anish Lalchandani<br>
-![Assignment 5 Screenshot](screenshots/skillsadvantage.jpg)
+![Assignment 5 Screenshot](screenshots/SkillsAdvantage.jpg)
 7. Power of Now by Eckhart Tolle<br>
-![Assignment 5 Screenshot](screenshots/powerofnow.webp)
+![Assignment 5 Screenshot](screenshots/PowerOfNow.webp)
 8. Atomic Habits by James Clear<br>
-![Assignment 5 Screenshot](screenshots/atomichabits.jpeg)
+![Assignment 5 Screenshot](screenshots/atomicHabits.jpeg)
 9. Thinking Fast and Slow by Daniel Kahmena<br>
-![Assignment 5 Screenshot](screenshots/thinking.jpg)
+![Assignment 5 Screenshot](screenshots/Thinking.JPG)
 10. Deep Work by Cal Newport<br>
-![Assignment 5 Screenshot](screenshots/deepwork.webp)
+![Assignment 5 Screenshot](screenshots/deepWork.webp)
 
 ---
 
