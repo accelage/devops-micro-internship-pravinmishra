@@ -3,7 +3,7 @@
 ![Cohort](https://img.shields.io/badge/Cohort-3-blue?style=for-the-badge)
 ![Program](https://img.shields.io/badge/DevOps_Micro_Internship-Temitope_ADEMOLA_DAVIDS-orange?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge)
-![Weeks](https://img.shields.io/badge/Weeks_Completed-2%2F15-green?style=for-the-badge)
+![Weeks](https://img.shields.io/badge/Weeks_Completed-3%2F15-green?style=for-the-badge)
 
 > 👋 **New here?** Read the [submission instructions](./onboarding) first — how to fork, fill in, and submit your assignments.
 > Find all the required links & assignment guidelines from here [Required links](./dmi_cohort3_resources.md)
@@ -16,7 +16,7 @@
 |---|---|
 | **Name** | Temitope Ademola-Davids |
 | **LinkedIn** | [topedavids](https://www.linkedin.com/in/topedavids/) |
-| **Location** | Ikeja/Lagos (available for remote role) |
+| **Location** | Lagos/Nigeria (available for remote role) |
 | **Background** | Cybersecurity, Cloud, DevOps & AI |
 | **Goal** | Hone my practical Devops skill, shipping quality softwares in shortest time using Agile and DevOps processes. |
 
@@ -73,8 +73,8 @@ This is not a course. It is an internship-style program — real deployments, re
  **Week 01** → Success Mindset
  [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/)
 
-<!-- Week 02 → Agentic AI with Claude Code -->
-<!-- [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) -->
+ **Week 02** → Agentic AI with Claude Code -->
+[![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/)
 
 <!-- Week 03 → Linux for DevOps -->
 <!-- [![Week 03 – Linux](./badges/week-03.svg)](./week-03-linux-for-devops/) -->
@@ -135,7 +135,7 @@ This is not a course. It is an internship-style program — real deployments, re
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/topedavids_pravin-mishra-the-cloudadvisory-linkedin-activity-7448018134445395968-CFUf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA | — |
 | 01 | Success Mindset | ✅ Completed | ✅ Solved |https://www.linkedin.com/posts/topedavids_devops-is-not-a-job-title-or-roleits-a-activity-7478024390933344256-WZTj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA| https://medium.com/@tope.adedavids/my-devops-micro-internship-journey-c6fef43de015?sharedUserId=tope.adedavids | 
-| 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
+| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/topedavids_dmibypravinmishra-agenticai-claudecode-share-7481376996703256576-7KLp/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA | https://medium.com/@tope.adedavids/my-learning-reflection-how-agentic-ai-changed-the-way-i-think-about-devops-b07e2091e13e?sharedUserId=tope.adedavids |
 | 03 | Linux for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
 | 04 | Bash Scripting | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
