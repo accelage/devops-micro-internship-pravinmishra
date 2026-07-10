@@ -20,7 +20,7 @@ Create the `.claude/agents/` directory and add all required agent files.
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/agents/` with all 3 files
 
-Add your screenshot here.
+![](screenshots/Ass4Task1.JPG)
 
 ---
 
@@ -34,19 +34,19 @@ Analyze the configuration differences between the three agents and demonstrate u
 
 #### 1. Why does the cost optimizer use Haiku instead of Sonnet?
 
-Add your answer here...
+The cost optimizer uses Haiku instead of Sonnet to minimize token use and API expenses for basic tasks that does not need much reasoning; as it is budget-friendly and used for menial tasks like data extraction, text classification, etc.
 
 ---
 
 #### 2. Why does the security auditor NOT have Write in its tools list?
 
-Add your answer here...
+The security auditor needs only Read-Only access permission, so it doesn’t accidentally tamper/alter the integrity of audit trails, logs and configuration files.
 
 ---
 
 #### 3. Why does the tf-writer use `inherit` instead of a specific model?
 
-Add your answer here...
+The Terraform writer uses inherit because of its task, which is- code generation and modification tasks. Inherit allows it to use reasoning capabilities and performance level of its model which is Claude code.
 
 ---
 
@@ -54,13 +54,13 @@ Add your answer here...
 
 #### Screenshot 2 — `security-auditor.md` frontmatter showing model and tools configuration
 
-Add your screenshot here.
+![](screenshots/Ass4Task2sc2.JPG)
 
 ---
 
 #### Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
 
-Add your screenshot here.
+![](screenshots/Ass4Task2sc3.JPG)
 
 ---
 
@@ -74,13 +74,15 @@ Trigger the security auditor agent and analyze the generated security report for
 
 #### Screenshot 4 — The delegation message showing Claude launched the security-auditor
 
-Add your screenshot here.
+![](screenshots/Ass4Task3sc4.JPG)
 
 ---
 
 #### Screenshot 5 — Security audit report output
 
-Add your screenshot here.
+![](screenshots/Ass4Task3sc5.JPG)
+![](screenshots/Ass4Task3sc5a.JPG)
+![](screenshots/Ass4Task3sc5b.JPG)
 
 ---
 
@@ -94,7 +96,8 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 #### Screenshot 6 — The full cost optimization report
 
-Add your screenshot here.
+![](screenshots/Ass4Task4sc6.JPG)
+![](screenshots/Ass4Task4sc6b.JPG)
 
 ---
 
@@ -110,7 +113,7 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`__________________________`
+https://github.com/accelage/Ultimate-Agentic-DevOps-with-Claude-Code
 
 ---
 
