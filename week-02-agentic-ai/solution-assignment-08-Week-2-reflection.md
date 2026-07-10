@@ -46,7 +46,7 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+![](screenshots/week2blogPost.JPG)
 
 ---
 
@@ -54,7 +54,7 @@ Add your screenshot here.
 
 Blog Link:
 
-`__________________________________________`
+https://medium.com/@tope.adedavids/my-learning-reflection-how-agentic-ai-changed-the-way-i-think-about-devops-b07e2091e13e
 
 ---
 
@@ -92,7 +92,7 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
+![](screenshots/week2linkedin.JPG)
 
 ---
 
@@ -101,14 +101,35 @@ Add your screenshot here.
 LinkedIn Post Content (copy-paste here):
 
 ```
-Paste your LinkedIn post content here
+Learning Journal: Exploring Terraform with Agentic AI
+
+This week has been one of the most exciting parts of my DevOps learning journey because it completely changed how I think about Infrastructure as Code (IaC) and automation. 
+Instead of manually creating *every* Terraform file from scratch, I learned how Agentic AI can simplify and standardize the entire process.
+
+One of the highlights was working with the /scaffold-terraform command. With this single command, Claude Code automatically generated a complete Terraform project structure, including main.tf, variables.tf, outputs.tf, providers.tf, and backend.tf. This was impressive because it eliminated repetitive setup tasks and allowed me to focus on designing infrastructure rather than creating boilerplate files.
+
+Beyond saving time, I realized that this approach promotes consistency and follows Terraform best practices. Instead of worrying about missing files or incorrect project structures, I could begin building infrastructure immediately on a solid foundation.
+
+Another interesting area I explored was Safety Hooks- I learned how hooks can introduce guardrails into AI-assisted workflows by validating requests and monitoring actions before and after tools are executed. 
+Understanding UserSubmission Hooks, PreToolUse Hooks, and PostToolUse Hooks showed me that automation should never operate without checks and balances (very important). 
+
+These mechanisms help ensure that AI-generated actions remain secure, reliable, and aligned with engineering standards.
+
+I also enjoyed learning about Model Context Protocol (MCP) tools and how they extend the capabilities of AI agents. Rather than relying solely on the model's built-in knowledge, MCP enables AI to interact with external tools and reusable services. This demonstrated how AI can become more effective by connecting with specialized capabilities while maintaining controlled and secure interactions.
+
+Another valuable lesson was seeing how specialized AI agents such as a Terraform Writer(tf-writer), Security Auditor, and Cost Optimizer can work together within the same workflow. Instead of one AI trying to perform every task, each agent contributes its expertise, resulting in better-quality infrastructure, stronger security practices, and more cost-effective cloud deployments.
+ I now understand that the future isn't just about writing code manually—it is about combining Infrastructure as Code with intelligent AI workflows, reusable tools, and built-in safety mechanisms. As I continue my DevOps journey, I look forward to applying these concepts to build cloud infrastructure that is not only automated but also secure, scalable, and maintainable.
+
+This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community ( [https://lnkd.in/dYfW-y_r)
+
+#DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps #LearningInPublic
 ```
 
 ---
 
 ### LinkedIn Post Link:
 
-`__________________________________________`
+https://www.linkedin.com/posts/topedavids_dmibypravinmishra-agenticai-claudecode-share-7481376996703256576-7KLp/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA
 
 ---
 
