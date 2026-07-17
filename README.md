@@ -76,8 +76,8 @@ This is not a course. It is an internship-style program — real deployments, re
  **Week 02** → Agentic AI with Claude Code -->
 [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/)
 
-<!-- Week 03 → Linux & Bash for DevOps -->
-<!-- [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) -->
+ **Week 03** → Linux & Bash for DevOps -->
+[![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/)
 
 <!-- Week 04 → Git & GitHub -->
 <!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-github/) -->
@@ -133,8 +133,8 @@ This is not a course. It is an internship-style program — real deployments, re
 | 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
 | 01 | Success Mindset | ⬜ Not Started | ⏳ Pending | — | — |
 | 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
-| 03 | Linux for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
-| 04 | Bash Scripting | ⬜ Not Started | ⏳ Pending | — | — |
+| 03 | Linux for DevOps | ✅ Completed | ✅ Solved | https://www.linkedin.com/pulse/week-3-devops-micro-internship-dmi-linux-isnt-just-ademola-davids-3d8yf | — |
+| 04 | Bash Scripting | ✅ Completed | ✅ Solved | https://www.linkedin.com/pulse/week-3-devops-micro-internship-dmi-from-provisioning-ademola-davids-qyhff | — |
 | 05 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
