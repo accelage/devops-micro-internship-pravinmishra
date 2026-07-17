@@ -391,13 +391,13 @@ It reduces your quota clutter.
 
 Paste your LinkedIn post URL here:
 
-`__________________________`
+https://www.linkedin.com/pulse/week-3-devops-micro-internship-dmi-thinking-like-ademola-davids-yv3ef
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![](screenshots/linkedinAss3.JPG)
 
 ---
 
