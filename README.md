@@ -130,12 +130,12 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
-| 01 | Success Mindset | ⬜ Not Started | ⏳ Pending | — | — |
-| 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
+| 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/topedavids_pravin-mishra-the-cloudadvisory-linkedin-activity-7448018134445395968-CFUf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA | https://www.linkedin.com/posts/topedavids_this-is-my-week-00-devops-learning-journal-activity-7485295214039920640-dSBS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA |
+| 01 | Success Mindset | 🔄 In Progress | ⏳ Pending | — | — |
+| 02 | Agentic AI with Claude Code | 🔄 In Progress | ⏳ Pending | — | — |
 | 03 | Linux for DevOps | ✅ Completed | ✅ Solved | https://www.linkedin.com/pulse/week-3-devops-micro-internship-dmi-linux-isnt-just-ademola-davids-3d8yf | — |
 | 04 | Bash Scripting | ✅ Completed | ✅ Solved | https://www.linkedin.com/pulse/week-3-devops-micro-internship-dmi-from-provisioning-ademola-davids-qyhff | — |
-| 05 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
+| 05 | Git & GitHub | 🔄 In Progress | ⏳ Pending | — | — |
 | 06 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 08 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
