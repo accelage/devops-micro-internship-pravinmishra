@@ -120,7 +120,7 @@ I also enjoyed learning about Model Context Protocol (MCP) tools and how they ex
 Another valuable lesson was seeing how specialized AI agents such as a Terraform Writer(tf-writer), Security Auditor, and Cost Optimizer can work together within the same workflow. Instead of one AI trying to perform every task, each agent contributes its expertise, resulting in better-quality infrastructure, stronger security practices, and more cost-effective cloud deployments.
  I now understand that the future isn't just about writing code manually—it is about combining Infrastructure as Code with intelligent AI workflows, reusable tools, and built-in safety mechanisms. As I continue my DevOps journey, I look forward to applying these concepts to build cloud infrastructure that is not only automated but also secure, scalable, and maintainable.
 
-This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community ( [https://lnkd.in/dYfW-y_r)
+This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community (https://lnkd.in/dYfW-y_r)
 
 #DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps #LearningInPublic
 ```
