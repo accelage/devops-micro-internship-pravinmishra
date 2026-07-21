@@ -120,7 +120,11 @@ Verify the deployed website and Nginx service are healthy.
 
 Paste your LinkedIn post URL here:
 
+<<<<<<< HEAD
 https://www.linkedin.com/pulse/week-3-devops-micro-internship-dmi-from-provisioning-ademola-davids-qyhff
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 
