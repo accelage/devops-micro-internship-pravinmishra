@@ -75,19 +75,19 @@ Answer the following in your own words:
 
 **1. Why should Claude receive project-specific operational rules?**
 
-Add your answer here.
+Claude should receive project-specific operational rules to give claude specific context of the project, so it has a good understanding of what it should do and not do.
 
 ---
 
 **2. Why is the human required to execute the recovery command?**
 
-Add your answer here.
+The human-in-the-loop is required to run recovery commands because the human has a better understandingof the context than the AI.
 
 ---
 
 **3. Which rule prevents Claude from making an unsupported diagnosis?**
 
-Add your answer here.
+The Safety Rules keep it from doing unsupported diagnosis, thereby keeping it within check.
 
 ---
 
@@ -101,7 +101,7 @@ Use Claude Code to inspect the environment and produce a read-only plan before c
 
 #### Screenshot 4 — Claude Code showing the five-check plan and read-only inspection results
 
-Add your screenshot here.
+![](screenshots/AItask3sc4.JPG)
 
 ---
 
@@ -111,19 +111,19 @@ Answer the following in your own words:
 
 **1. Which part of this task represents the Gather phase?**
 
-Add your answer here.
+The results gathered be it HEALTHY result or the FAILED result and reason
 
 ---
 
 **2. Did Claude follow the instruction not to create files? How did you verify this?**
 
-Add your answer here.
+Yes, it followed the instructions by not creating new files. It showd that it was Read-Only
 
 ---
 
 **3. Why is planning before coding useful in DevOps automation?**
 
-Add your answer here.
+Planning ensures your automation aligns with business goals. In DevOps, it maps out the system architecture and workflows before any coding begins. This prevents deployment failures, cuts down on wasted time, and aligns developer and IT
 
 ---
 
@@ -469,7 +469,7 @@ The safety decision was that the AI should gather and analyze but not act, as th
 Gather -> Evidence collected
 Analyze -> Most likely causes based on the gathered evidence
 Act -> Human approved review and execution
-Verify -> The evidence that showed that we are back in business. ngins restarted and active, and HTTP serving pages to requests
+Verify -> The evidence that showed that we are back in business. nginx restarted and active, and HTTP serving pages to requests
 ---
 
 # LinkedIn Post (Required)
@@ -480,13 +480,13 @@ Verify -> The evidence that showed that we are back in business. ngins restarted
 
 Paste your LinkedIn post URL here:
 
-`__________________________`
+https://www.linkedin.com/pulse/week-3-devops-micro-internship-dmi-building-linux-ademola-davids-okkre
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![](screenshots/linkedin_AI.JPG)
 
 ---
 
