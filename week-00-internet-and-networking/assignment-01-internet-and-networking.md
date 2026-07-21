@@ -25,16 +25,15 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
+![Task 1 Screenshot](screenshots/ass1task1.JPG)
 
 
-Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ---
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+I learned that ChatGPT is a tool to help learners and professionals grow in their field of study. Like in my case, ChatGPT helped me get more knowledge on networking and communication concepts.
 
 ---
 
@@ -59,7 +58,8 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+When EpicReads is hosted on a server in Finland, customers from anywhere in the world can still access the website through the internet. When a user enters the website address in a browser, the request is broken into small pieces called packets using packet switching. Each packet travels across different network paths and is reassembled when it reaches the server. Every device connected to the internet has an IP address, which acts like a unique home address so packets know where to go and where to return. The TCP/IP protocol suite manages this communication by ensuring packets are correctly addressed, transmitted, and reassembled in the right order. Once the connection is established, HTTP or the more secure HTTPS protocol is used to transfer web pages between the user's browser and the server. HTTPS also encrypts data, protecting sensitive information such as login credentials and payment details, allowing customers worldwide to browse and purchase books safely.
+
 
 ---
 
@@ -91,7 +91,8 @@ EpicReads bookstore has two application versions:
 
 Save your diagram image in the `screenshots` folder and update the file name below.
 
-![Application Architecture Diagram](screenshots/task-3-diagram.png)
+![Application Architecture Diagram](screenshots/two-tier.JPG)
+![Application Architecture Diagram](screenshots/three-tier.JPG)
 
 
 Replace `task-3-diagram.png` with your actual diagram file name.
@@ -102,18 +103,18 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* HTML, CSS and JS
+* React, Angular
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* Node JS, ASP.NET, Python
+
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* MariaDB, MongoDB, 
+* MySQL
 
 ---
 
@@ -142,8 +143,9 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+The Domain Name System (DNS) is like the internet's phonebook. It maps easy-to-remember domain names, such as www.epicreads.com, into IP addresses that computers understand and use to locate websites. 
 
+To connect www.epicreads.com to the IP address 52.172.142.222, an A (Address) record should be used because it maps a domain name directly to an IPv4 address. This allows users to access the bookstore using the domain name instead of remembering the numeric IP address.
 ---
 
 # 💻 Task 5: Visual Studio Code Setup (Hands-on)
@@ -178,7 +180,7 @@ ls
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![VS Code Setup Screenshot](screenshots/task-5-vscode.png)
+![VS Code Setup Screenshot](screenshots/vs_code.JPG)
 
 
 Replace `task-5-vscode.png` with your actual screenshot file name.
@@ -217,9 +219,9 @@ Add the following credit note at the end of your post:
 
 Paste your LinkedIn post URL here:
 
-```text
-Add your URL here...
-```
+
+https://www.linkedin.com/posts/topedavids_pravin-mishra-the-cloudadvisory-linkedin-activity-7448018134445395968-CFUf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA
+
 
 ---
 
@@ -227,7 +229,43 @@ Add your URL here...
 
 Paste the full text of your LinkedIn post here:
 
-Add your post content here...
+🚀 My DevOps Micro-Internship Journey – A Deeper Dive into My Learning Experience
+Here I document my DevOps process as I grow. This internship pushes me to think beyond theory, helping me connect concepts to real-world applications.
+Throughout this week, I explored Networking, Application Architecture, DNS, and Development Tools. 
+
+Here’s a more detailed look at what I worked on:
+
+🤖 Task 1: Leveraging ChatGPT for Technical Clarity
+ I used ChatGPT as a learning companion, it helped me break down complex technical concepts—like network protocols, DNS resolution, and application structures—into simpler explanations.
+ This improved my understanding, also elevated how I communicate technical ideas in a clear, structured manner—an essential skill in DevOps.
+
+🌐 Task 2: Understanding Internet & Networking Fundamentals
+How users from anywhere in the world access websites hosted on remote servers. I learned how multiple technologies work together seamlessly using :
+Packet Switching to break into smaller chunks and efficiently routed across networks and also Protocols that guides communications like TCP/IP, HTTP/S. What stood out most is how these layers collaborate behind the scenes to deliver a smooth browsing experience—whether the server is nearby or located across continents.
+
+🏗️ Task 3: Exploring Application Architecture
+ Modern applications are structured in tiers. I compared two major tiers:
+🔹 Two-Tier Architecture (Client ↔ Database)
+ In this simpler setup, the frontend communicates directly with the database. It’s easier to implement.
+ Technologies used: HTML, CSS, React, SQL, MongoDB
+🔹 Three-Tier Architecture (Client ↔ Server ↔ Database)
+ Here, a backend layer acts as an intermediary between the frontend and the database. 
+ Technologies used: HTML, CSS, React, Node.js/Python, SQL, MongoDB
+This comparison gave me a clearer understanding of why modern systems favor layered architectures, especially for large-scale applications.
+
+🌍 Task 4: Demystifying DNS (Domain Name System)
+ I learned that DNS acts like the internet’s phonebook—translating human-friendly domain names into machine-readable IP addresses.
+e.g mapping epicreads.com to 52.172.142.222 requires an A-record, which directly links a domain name to an IPv4 address.
+ This means users can access websites without needing to memorize numerical IP addresses.
+
+💻 Task 5: Setting Up My Development Environment (VS Code)
+ I set up Visual Studio Code as my IDE. I used its integrated terminal and practiced running basic commands which is a crucial step toward working efficiently in real-world development and DevOps workflows.
+
+💪 💪 💪 
+
+P.S. This post is part of the FREE DevOps Micro Internship (DMI) Cohort 3 run by Pravin Mishra. You can be part of this learning community too.
+JOIN HERE (https://lnkd.in/eM3Afqmm ) DMI Cohort 3: https://lnkd.in/eYBAA5pX
+Pravin Mishra Profile: https://lnkd.in/e4xUPE8n
 
 ---
 
@@ -235,19 +273,19 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+Well, we are just bootsrapping in the session, so taking off has less frictions to me. Everything seem easy, with my background even prompting to get information.
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+For now, nothing...the concept is something I am currently familiar with.
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+Starting my assignments early enough
 
 ---
 
