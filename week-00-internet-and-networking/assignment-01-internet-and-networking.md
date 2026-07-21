@@ -285,7 +285,7 @@ For now, nothing...the concept is something I am currently familiar with.
 
 ### What will you improve next week?
 
-Starting my assignments early enough
+Starting my assignments early enough to meetup deadline.
 
 ---
 
