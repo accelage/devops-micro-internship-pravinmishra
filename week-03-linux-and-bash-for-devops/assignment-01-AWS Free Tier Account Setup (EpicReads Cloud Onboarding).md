@@ -16,7 +16,7 @@ In this assignment, you will create and verify an AWS Free Tier account as part 
 
 Demonstrate understanding of AWS basics and Free Tier usage by answering the following questions in your own words (3–4 lines each).
 
-### Answers
+
 
 #### Question 1 — What is an AWS account, and why do you need it at this stage?
 
