@@ -263,9 +263,7 @@ e.g mapping epicreads.com to 52.172.142.222 requires an A-record, which directly
 
 💪 💪 💪 
 
-P.S. This post is part of the FREE DevOps Micro Internship (DMI) Cohort 3 run by Pravin Mishra. You can be part of this learning community too.
-JOIN HERE (https://lnkd.in/eM3Afqmm ) DMI Cohort 3: https://lnkd.in/eYBAA5pX
-Pravin Mishra Profile: https://lnkd.in/e4xUPE8n
+P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining DMI waiting list (https://forms.gle/3hvrWJBDzsDeJoPs6).
 
 ---
 
