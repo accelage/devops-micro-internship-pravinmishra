@@ -31,8 +31,6 @@ You will reuse this in later weeks. So do it properly once.
 
 **Hint:** What do you believe about career, money, learning, discipline, relationships, health, success, life, tech industry, etc. that most people don't agree with?
 
-## Answer
-
 My belief that others, don not sgree with - especially those who condemn themselves or their wards; is that no one is born a failure, I often see people comparing themselves or their kids to other people's kids; and it has always struck upon me to note their wards could also be better and smarter if only same dedication, opportunity, guidance and resources are made available to their wards too, as was made available to the ones they are being compared with. Above all, the internet and resources like youtube has made education without borders and anyone can achieve success if dedication is put in.
 
 ---
@@ -192,7 +190,7 @@ Focus on the feeling:
 
 This is about self-awareness, not judgment.
 
-### Answer Format
+
 
 **Yes / No**
 
@@ -200,7 +198,7 @@ If Yes:
 
 **What emotion did you feel?** (minimum 50–100 words)
 
-## Answer
+
 
 I once cut corners trying to by-pass a particular cost of something that got spoiled in my vehicle. It was my headlamp switch that went bad one evening while in transit home, so the roadside autoelectrician told me to buy the recommended switch, but to cut cost he told me I can adapt a low standard switch used in tricycles just for the meantime, which I accepted to be able to use the vehicle as the night falls. <br>I regretted that decision as the switch was not designed to take the headlamp load amperage without a relay. My car wires burned due to resistance mismatch ,my brainbox got an issue as it couldnt detect the component fixed. I spent huge far beyond the switch cost to get the car back to functional state. I got to realise looking similar does not mean it is the same.<br>
 
@@ -286,7 +284,7 @@ List topics only. No need to share numbers.
 * Save more, reduce expenditure
 * track meetings with clients and not just spending time prospecting unsure leads
 * Health tracking, minimizing stree that could increase blood pressure or sugar levels
-* Add your answer here...
+
 
 ---
 
@@ -310,7 +308,7 @@ Examples:
 
 **Yes / No**
 
-Answer:
+
 
 Attempting week1 assignment of DMI;<br>
 Balance Payment of children school fees <br>
