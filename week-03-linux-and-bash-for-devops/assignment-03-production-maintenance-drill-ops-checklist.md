@@ -391,11 +391,8 @@ It reduces your quota clutter.
 
 Paste your LinkedIn post URL here:
 
-<<<<<<< HEAD
 https://www.linkedin.com/pulse/week-3-devops-micro-internship-dmi-thinking-like-ademola-davids-yv3ef
-=======
 `Add your URL here`
->>>>>>> upstream/main
 
 ---
 

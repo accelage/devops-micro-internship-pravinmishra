@@ -168,11 +168,8 @@ The source code can be forked and cloned from his Github portfolio.
 ### Public Link
 
 
-<<<<<<< HEAD
 https://www.linkedin.com/posts/topedavids_the-lagos-freelancer-who-taught-ai-to-speak-share-7477685794443538432-EmvN/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA
-=======
 `Add your URL here`
->>>>>>> upstream/main
 
 ---
 
@@ -396,11 +393,8 @@ Keeping up with my Learning Journal and postings to keep myself as an authority 
 
 Paste your LinkedIn post link here:
 
-<<<<<<< HEAD
 `https://www.linkedin.com/posts/topedavids_the-lagos-freelancer-who-taught-ai-to-speak-share-7477685794443538432-EmvN/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA`
-=======
 `Add your URL here`
->>>>>>> upstream/main
 
 ---
 

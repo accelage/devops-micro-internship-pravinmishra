@@ -480,11 +480,8 @@ Verify -> The evidence that showed that we are back in business. nginx restarted
 
 Paste your LinkedIn post URL here:
 
-<<<<<<< HEAD
 https://www.linkedin.com/pulse/week-3-devops-micro-internship-dmi-building-linux-ademola-davids-okkre
-=======
 `Add your URL here`
->>>>>>> upstream/main
 
 ---
 
@@ -498,11 +495,8 @@ https://www.linkedin.com/pulse/week-3-devops-micro-internship-dmi-building-linux
 
 Paste the URL of your GitHub folder or repository containing the assignment files here:
 
-<<<<<<< HEAD
 (https://github.com/accelage/devops-micro-internship-pravinmishra)
-=======
 `Add your URL here`
->>>>>>> upstream/main
 
 ---
 

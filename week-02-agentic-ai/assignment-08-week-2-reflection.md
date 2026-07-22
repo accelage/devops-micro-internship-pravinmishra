@@ -54,11 +54,8 @@ You can publish your blog on:
 
 Blog Link:
 
-<<<<<<< HEAD
 https://medium.com/@tope.adedavids/my-learning-reflection-how-agentic-ai-changed-the-way-i-think-about-devops-b07e2091e13e
-=======
 `Add your URL here`
->>>>>>> upstream/main
 
 ---
 
@@ -133,11 +130,8 @@ This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravi
 
 ### LinkedIn Post Link:
 
-<<<<<<< HEAD
 https://www.linkedin.com/posts/topedavids_dmibypravinmishra-agenticai-claudecode-share-7481376996703256576-7KLp/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA
-=======
 `Add your URL here`
->>>>>>> upstream/main
 
 ---
 
