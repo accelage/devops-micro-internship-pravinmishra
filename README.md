@@ -3,7 +3,7 @@
 ![Cohort](https://img.shields.io/badge/Cohort-3-blue?style=for-the-badge)
 ![Program](https://img.shields.io/badge/DevOps_Micro_Internship-Temitope_ADEMOLA_DAVIDS-orange?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge)
-![Weeks](https://img.shields.io/badge/Weeks_Completed-4%2F15-green?style=for-the-badge)
+![Weeks](https://img.shields.io/badge/Weeks_Completed-5%2F15-green?style=for-the-badge)
 
 > 👋 **New here?** Read the [submission instructions](./onboarding) first — how to fork, fill in, and submit your assignments.
 > Find all the required links & assignment guidelines from here [Required links](./dmi_cohort3_resources.md)
@@ -135,7 +135,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/topedavids_dmibypravinmishra-agenticai-claudecode-share-7481376996703256576-7KLp/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA | https://medium.com/@tope.adedavids/my-learning-reflection-how-agentic-ai-changed-the-way-i-think-about-devops-b07e2091e13e?sharedUserId=tope.adedavids |
 | 03 | Linux for DevOps | ✅ Completed | ✅ Solved | https://www.linkedin.com/pulse/week-3-devops-micro-internship-dmi-linux-isnt-just-ademola-davids-3d8yf | https://medium.com/@tope.adedavids/week-3-devops-micro-internship-dmi-building-an-ai-assisted-linux-incident-response-workflow-cd57d3d43601 |
 | 04 | Bash Scripting | ✅ Completed | ✅ Solved | https://www.linkedin.com/pulse/week-3-devops-micro-internship-dmi-from-provisioning-ademola-davids-qyhff | https://medium.com/@tope.adedavids/week-3-devops-micro-internship-dmi-building-an-ai-assisted-linux-incident-response-workflow-cd57d3d43601 |
-| 05 | Git & GitHub | 🔄 In Progress | ⏳ Pending | — | — |
+| 05 | Git & GitHub | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/topedavids_devops-git-github-share-7485712561183793152-h1qV/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA |https://medium.com/@tope.adedavids/beyond-git-commit-what-i-learned-about-real-world-github-collaboration-in-devops-e96a1b1fcb76 |
 | 06 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 08 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
