@@ -427,7 +427,7 @@ It uses fuctions to group block of codes that can be run modularly together
 Paste your LinkedIn post URL here:
 
 https://www.linkedin.com/posts/topedavids_this-week-03-on-linux-for-devops-and-bash-activity-7484006966403584001-d8_I?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA
-`Add your URL here`
+
 
 ---
 
