@@ -20,7 +20,7 @@ Fork `pravinmishraaws/devops-micro-internship-interviews` into your own GitHub a
 
 #### Screenshot 1 — Your fork page with your username and `devops-micro-internship-interviews` visible in the browser URL
 
-Add your screenshot here.
+![](screenshots/Ass5sc1.JPG)
 
 ---
 
@@ -34,7 +34,7 @@ Configure one authentication method — HTTPS with a Personal Access Token, or S
 
 #### Screenshot 2 — Output of `git config --global --get credential.helper` (HTTPS) or `ssh -T git@github.com` (SSH) showing successful authentication — never show your token or private key
 
-Add your screenshot here.
+![](screenshots/Ass5sc2.JPG)
 
 ---
 
@@ -48,7 +48,7 @@ Clone your fork locally, then add the original repository as `upstream`.
 
 #### Screenshot 3 — Output of `git remote -v` showing `origin` pointing to your fork and `upstream` pointing to `pravinmishraaws/devops-micro-internship-interviews`
 
-Add your screenshot here.
+![](screenshots/Ass5sc3.JPG)
 
 ---
 
@@ -62,13 +62,13 @@ Create the branch `feature-readme-update`, add only your own entry (`Full Name �
 
 #### Screenshot 4 — Output of `git status` showing `pull_request.md` modified before staging
 
-Add your screenshot here.
+![](screenshots/Ass5sc4.JPG)
 
 ---
 
 #### Screenshot 5 — Output of `git commit`
 
-Add your screenshot here.
+![](screenshots/Ass5sc5.JPG)
 
 ---
 
@@ -82,13 +82,13 @@ Fetch and merge `upstream/main` into your local default branch, rebase your feat
 
 #### Screenshot 6 — Output of `git push -u origin feature-readme-update` showing a successful push
 
-Add your screenshot here.
+![](screenshots/Ass5sc6.JPG)
 
 ---
 
 #### Screenshot 7 — Your fork on GitHub showing `feature-readme-update` in the branch selector or a "Compare & pull request" banner
 
-Add your screenshot here.
+![](screenshots/Ass5sc7.JPG)
 
 ---
 
@@ -102,13 +102,13 @@ Open a Pull Request from `feature-readme-update` on your fork to `main` on the u
 
 #### Screenshot 8 — Pull Request creation page showing the correct base repository, base branch, head repository, compare branch, and title
 
-Add your screenshot here.
+![](screenshots/Ass5sc8.JPG)
 
 ---
 
 #### Screenshot 9 — Successfully created Pull Request page with the PR number visible
 
-Add your screenshot here.
+![](screenshots/Ass5sc9.JPG)
 
 ---
 
@@ -116,7 +116,7 @@ Add your screenshot here.
 
 Paste your Pull Request URL here:
 
-`Add your URL here`
+https://github.com/pravinmishraaws/devops-micro-internship-interviews/pull/387
 
 ---
 
@@ -128,13 +128,13 @@ Paste your Pull Request URL here:
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/topedavids_devops-git-github-share-7486376363147513856-JALZ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA
 
 ---
 
 #### Screenshot — LinkedIn post showing your successfully created Pull Request
 
-Add your screenshot here.
+![](screenshots/linkedIn_post.JPG)
 
 ---
 
@@ -151,7 +151,7 @@ Add your screenshot here.
 
 Paste your fork URL here:
 
-`Add your URL here`
+https://github.com/accelage/devops-micro-internship-interviews
 
 ---
 
