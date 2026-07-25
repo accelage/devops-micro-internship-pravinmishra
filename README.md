@@ -79,8 +79,8 @@ This is not a course. It is an internship-style program — real deployments, re
  **Week 03** → Linux & Bash for DevOps -->
 [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/)
 
-<!-- Week 04 → Git & GitHub -->
-<!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-github/) -->
+ **Week 04** → Git & GitHub -->
+[![Week 04 – Git](./badges/week-04.svg)](./week-04-github/)
 
 <!-- Week 05 → DevOps Lifecycle & Agile -->
 <!-- [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/) -->
@@ -133,18 +133,18 @@ This is not a course. It is an internship-style program — real deployments, re
 | 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/topedavids_pravin-mishra-the-cloudadvisory-linkedin-activity-7448018134445395968-CFUf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA | https://www.linkedin.com/posts/topedavids_this-is-my-week-00-devops-learning-journal-activity-7485295214039920640-dSBS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA |
 | 01 | Success Mindset | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/topedavids_the-lagos-freelancer-who-taught-ai-to-speak-share-7477685794443538432-EmvN/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA | https://medium.com/@tope.adedavids/my-devops-micro-internship-journey-c6fef43de015?sharedUserId=tope.adedavids |
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/topedavids_dmibypravinmishra-agenticai-claudecode-share-7481376996703256576-7KLp/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA | https://medium.com/@tope.adedavids/my-learning-reflection-how-agentic-ai-changed-the-way-i-think-about-devops-b07e2091e13e?sharedUserId=tope.adedavids |
-| 03 | Linux for DevOps | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/topedavids_reviewing-what-i-did-last-week-as-devops-ugcPost-7486531710625603584-LpeK/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA | https://medium.com/@tope.adedavids/week-3-devops-micro-internship-dmi-building-an-ai-assisted-linux-incident-response-workflow-cd57d3d43601 |
-| 04 | Bash Scripting | ✅ Completed | ✅ Solved | https://www.linkedin.com/pulse/week-3-devops-micro-internship-dmi-from-provisioning-ademola-davids-qyhff | https://medium.com/@tope.adedavids/week-3-devops-micro-internship-dmi-building-an-ai-assisted-linux-incident-response-workflow-cd57d3d43601 |
-| 05 | Git & GitHub | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/topedavids_devops-git-github-share-7485712561183793152-h1qV/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA |https://medium.com/@tope.adedavids/beyond-git-commit-what-i-learned-about-real-world-github-collaboration-in-devops-e96a1b1fcb76 |
-| 06 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
-| 07 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
-| 08 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
-| 09 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
-| 10 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
-| 11 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
-| 12 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
-| 13 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
-| 14 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
+| 03 | Linux and Bash for DevOps | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/topedavids_reviewing-what-i-did-last-week-as-devops-ugcPost-7486531710625603584-LpeK/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA | https://medium.com/@tope.adedavids/week-3-devops-micro-internship-dmi-building-an-ai-assisted-linux-incident-response-workflow-cd57d3d43601 |
+
+| 04 | Git & GitHub | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/topedavids_devops-git-github-share-7485712561183793152-h1qV/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA |https://medium.com/@tope.adedavids/beyond-git-commit-what-i-learned-about-real-world-github-collaboration-in-devops-e96a1b1fcb76 |
+| 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
+| 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
+| 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
+| 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
+| 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
+| 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
+| 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
+| 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
+| 13 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
 
 **Status:** ⬜ Not Started &nbsp;|&nbsp; 🔄 In Progress &nbsp;|&nbsp; ✅ Completed<br>
 **Assignment:** ⏳ Pending &nbsp;|&nbsp; ✅ Solved
