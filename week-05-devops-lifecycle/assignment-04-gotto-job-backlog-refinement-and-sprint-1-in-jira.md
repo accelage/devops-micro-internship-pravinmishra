@@ -20,7 +20,7 @@ Choose Team Mode or Solo Mode, and document how each Scrum role (Product Owner, 
 
 #### Screenshot 1 — Jira "Create project" screen, or the project sidebar after creation
 
-Add your screenshot here.
+![](screenshots/Ass4sc1.JPG)
 
 ---
 
@@ -28,8 +28,28 @@ Add your screenshot here.
 
 Write one line for each role: PO (what you prioritized), SM (how you ensured process), Dev Lead (what you built), DevOps Lead (how you shipped).
 
-Write your answer here.
+Here are the roles as observed:
 
+As the Product Owner 
+
+- I defined the Backlog: Translated high-level feature requirements for the job portal (such as the Job Search form, Job Listings, and Advanced Filter pages) into granular user stories
+- I mapped the Sprint Goals: Established clear goals for each sprint cycle so the development and operation teams knew exactly what specific pages or configurations needed to be completed next.
+
+
+As the Scrum Master
+
+- Structured Jira Workflows: Set up the project boards in Jira, breaking down the sprint objectives into the required technical subtasks (Build, Verify, Deploy, and Document/Screenshot).
+- Eliminated Blockers that could impede the project delivery: Removed cross-team friction and dependencies between the application code builders and the infrastructure provisioning track.
+
+As the Dev Lead
+
+- I revamped the web site:  I edited the core points that were required in the User stories, the headline tag, and responsive components of the Gotto Job website using Bootstrap, HTML, CSS, and JavaScript
+- Code Testing and Verification: Having edited and revamped the website, I also tested the user actions—like interacting with the search forms—worked without bugs
+
+As the DevOps
+
+- Provisioned Infrastructure: Set up and configured cloud environments (such as provisioning an AWS EC2 instance web server equipped with Nginx or setting up container runtimes)
+- I created a 2-way sync environment on github, such that my local dev synchronizes with the github repo, this makes myupdates automated. 
 ---
 
 # Task 2 — Create the Jira Project (Team-managed → Scrum)
@@ -42,7 +62,7 @@ Create a Team-managed Scrum project named `Gotto Job – Team <#>` (Team Mode) o
 
 #### Screenshot 2 — Project created page showing the project name and key
 
-Add your screenshot here.
+![](screenshots/Ass4sc2.JPG)
 
 ---
 
@@ -56,7 +76,7 @@ Create the Epic `Improve Gotto Job UI discoverability & trust` to group the UI i
 
 #### Screenshot 3 — Backlog showing the Epic panel with the Epic visible
 
-Add your screenshot here.
+![](screenshots/Ass4sc3.JPG)
 
 ---
 
@@ -70,13 +90,13 @@ Create at least six Stories under the Epic, estimate each with 1, 2, or 3 story 
 
 #### Screenshot 4 — Backlog showing the Epic and at least six Stories under it
 
-Add your screenshot here.
+![](screenshots/Ass4sc4.JPG)
 
 ---
 
 #### Screenshot 5 — One Story opened showing its Story Points and acceptance criteria filled in
 
-Add your screenshot here.
+![](screenshots/Ass4sc5.JPG)
 
 ---
 
@@ -90,7 +110,8 @@ Confirm the Story Points (1, 2, or 3) for each Story and record brief reasoning 
 
 #### Screenshot 6 — Backlog showing Story Points visible, or two or three Stories opened showing their points
 
-Add your screenshot here.
+
+![](screenshots/Ass4sc6c.JPG)
 
 ---
 
@@ -98,7 +119,10 @@ Add your screenshot here.
 
 For each story, explain in one or two lines why it is a 1, 2, or 3 (mention any debate, even in Solo Mode).
 
-Write your answer here.
+- Hero tagline clarity (1 pt); the simplicity here is just to change the visible words and test it, so 1pt estimate is good.
+- Primary CTA color (1 pt); this was also left at 1pt estimate because all I needed do was to locate the style used for the primary button and change the color.
+- Job card typography (2 pts); this involves 2 things font weight and font size, so it warrants its 2pts estimate
+- Posted on date text (1 pt); this task is similar to the deploy date on previous tasks, it is simple
 
 ---
 
@@ -112,13 +136,13 @@ Create Sprint 1, move three or four Stories into it (approximately 3–6 points)
 
 #### Screenshot 7 — Sprint 1 with the selected Stories inside it
 
-Add your screenshot here.
+![](screenshots/Ass4sc7.JPG)
 
 ---
 
 #### Screenshot 8 — One Story showing the Sub-tasks created
 
-Add your screenshot here.
+![](screenshots/Ass4sc8.JPG)
 
 ---
 
@@ -132,7 +156,7 @@ Open the Burndown Chart and confirm it exists for Sprint 1. It is acceptable if 
 
 #### Screenshot 9 — Burndown Chart page opened, even if empty
 
-Add your screenshot here.
+![](screenshots/Ass4sc9.JPG)
 
 ---
 
@@ -146,19 +170,19 @@ Implement one small UI-only Story from Sprint 1, commit it, deploy it live, and 
 
 #### Screenshot 10 — Jira board showing the Story moved to Done
 
-Add your screenshot here.
+![](screenshots/Ass4sc10.JPG)
 
 ---
 
 #### Screenshot 11 — Git commit output
 
-Add your screenshot here.
+![](screenshots/Ass4sc11.JPG)
 
 ---
 
 #### Screenshot 12 — Live URL in the browser showing the UI change, with the URL visible
 
-Add your screenshot here.
+![](screenshots/Ass4sc12.JPG)
 
 ---
 
@@ -172,7 +196,7 @@ Add a retro comment covering what went well, what to improve, one Scrum pillar o
 
 #### Screenshot 13 — Jira retro comment visible
 
-Add your screenshot here.
+![](screenshots/Ass4sc13.JPG)
 
 ---
 
@@ -186,15 +210,14 @@ Publish a LinkedIn post about what you delivered, including your live URL, three
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/topedavids_real-progress-in-software-development-isnt-share-7491495921902415874-qNye/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA
 
 ---
 
 #### Screenshot 14 — Published LinkedIn post
 
-Add your screenshot here.
+![](screenshots/linkedin_post1.JPG)
 
 ---
 
