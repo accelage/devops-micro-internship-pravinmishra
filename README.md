@@ -138,7 +138,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | 03 | Linux and Bash for DevOps | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/topedavids_reviewing-what-i-did-last-week-as-devops-ugcPost-7486531710625603584-LpeK/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA | https://medium.com/@tope.adedavids/week-3-devops-micro-internship-dmi-building-an-ai-assisted-linux-incident-response-workflow-cd57d3d43601 |
 | 04 | Git & GitHub | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/topedavids_devops-git-github-share-7485712561183793152-h1qV/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA | https://medium.com/@tope.adedavids/beyond-git-commit-what-i-learned-about-real-world-github-collaboration-in-devops-e96a1b1fcb76 |
 | 05 | DevOps Lifecycle & Agile | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/topedavids_real-progress-in-software-development-isnt-share-7491495921902415874-qNye/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA | https://medium.com/@tope.adedavids/from-backlog-to-production-what-devops-scrum-and-agile-taught-me-this-week-4c75b27bfeff |
-| 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
+| 06 | AWS Cloud | 🔄 In Progress | ⏳ Pending | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
 | 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
