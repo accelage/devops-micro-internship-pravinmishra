@@ -34,13 +34,52 @@ Record the AWS Region used and list every AWS service used across networking, co
 
 **Region:**
 
-Write your answer here.
+For this project, I used the US-East-2 Region (Ohio). I usually use EU-NORTH-1(Stockholm) for previous projects but I experienced tons of Insufficient Instance Capacity recently while launching instances, AutoScaling Group, and Launch Templates.
 
 ---
 
 **Services used:**
 
-Write your answer here.
+
+The AWS services used for the Book Review App Project includes:
+
+🌐 Networking
+
+•	Amazon VPC (Virtual Private Cloud): The foundational isolated network used to host the entire application environment safely. Everything resides within a single VPC.
+
+•	Public Subnets: Utilized to group together resources that are deployed  to be internet-facing, like the Internet Gateway, NAT Gateway and the Application Load Balancer.
+
+•	Private Subnets: Utilized to isolate backend application servers and the core database from direct public internet exposure.
+
+•	Internet Gateway (IGW): Connected to the VPC to enable communication between resources in public subnets and the internet.
+
+•	NAT Gateway (Network Address Translation): Placed in the public subnet to allow backend instances in the private subnets to securely fetch updates from the internet without exposing them to inbound traffic.
+
+•	Route Tables: Configured to control and direct network traffic flowing between subnets, the Internet Gateway, and the NAT Gateway
+
+💻 Compute
+
+•	Amazon EC2 (Elastic Compute Cloud): Virtual servers running Linux/Ubuntu used to host the application runtime environments (Node.js/Express API servers and Nginx reverse proxies).
+
+•	AWS Auto Scaling Groups (ASG): Configured to automatically scale the compute layer (EC2 instances) horizontally across multiple Availability Zones based on application traffic demands.
+
+⚖️ Load Balancing
+
+•	Application Load Balancer (ALB): Placed at the front of the compute layer to act as the single point of contact for clients. It safely routes incoming HTTP/HTTPS traffic evenly across the active EC2 compute instances distributed in multiple Availability Zones.
+
+🔒 Security
+
+•	AWS IAM (Identity and Access Management): Used to provision granular access permissions and roles for engineers and specific AWS services securely.
+
+•	Security Groups: Act as instance-level virtual firewalls to control inbound and outbound traffic for the EC2 compute instances and the RDS database. 
+
+•	Network Access Control Lists (NACLs): Configured to act as a subnet-level firewall layer for an added blanket of protection. 
+
+🗄️ Database
+
+•	Amazon RDS (Relational Database Service): Used to provision and manage a highly available MySQL database engine instance deployed directly inside the private subnets to store core application data (books, reviews, and user logs) safely
+
+
 
 ---
 
@@ -56,7 +95,7 @@ Confirm the Book Review App loads through the public ALB DNS name.
 
 Paste your public ALB DNS name here:
 
-`Add your URL here`
+http://Book-Review-Web-ALB-1171154205.us-east-2.elb.amazonaws.com
 
 ---
 
@@ -70,37 +109,37 @@ Capture visual proof of every tier and load balancer.
 
 #### Screenshot 1 — Web Tier EC2 instance in a public subnet
 
-Add your screenshot here.
+![](screenshots/Ass6sc1.JPG)
 
 ---
 
 #### Screenshot 2 — App Tier EC2 instance in a private subnet
 
-Add your screenshot here.
+![](screenshots/Ass6sc2.JPG)
 
 ---
 
 #### Screenshot 3 — Public Application Load Balancer configuration or healthy targets
 
-Add your screenshot here.
+![](screenshots/Ass6sc3.JPG)
 
 ---
 
 #### Screenshot 4 — Internal Application Load Balancer configuration or healthy targets
 
-Add your screenshot here.
+![](screenshots/Ass6sc4.JPG)
 
 ---
 
 #### Screenshot 5 — Amazon RDS for MySQL showing Multi-AZ and the read replica
 
-Add your screenshot here.
+![](screenshots/Ass6sc5.JPG)
 
 ---
 
 #### Screenshot 6 — Book Review App UI working through the public ALB
 
-Add your screenshot here.
+![](screenshots/Ass6sc6.JPG)
 
 ---
 
@@ -114,19 +153,23 @@ Summarize what worked in the final deployment, the issues encountered and how ea
 
 **What worked:**
 
-Write your answer here.
+Mapping a Symlink in my site-available folder with the site-enabled folder for nginx to server when the url is requested.
+
+
 
 ---
 
 **Issues encountered and fixes:**
 
-Write your answer here.
+I had issues with my database name at first as I was getting ECONN and SequelizeError, but that was really fixed by checking my database name or creating the expected database name if it doesn't exist.
+
+Another Issue I had was my public ALB was not loading the site, as I was getting 503 Service Temporarily Unavailable error, this was resolved as the Web EC2 instance was not placed in the Target Group
 
 ---
 
 **Tools/sources used:**
 
-Write your answer here.
+ChatGPT and Gemini helped with my issues...and above all, my accountability partner.
 
 ---
 
@@ -142,13 +185,13 @@ Publish a LinkedIn post sharing the capstone deployment, including the public AL
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/topedavids_as-a-cybersecurity-inclined-devops-engineer-share-7495903188508827649-0OoH/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![](screenshots/linkedin6.JPG)
 
 ---
 
