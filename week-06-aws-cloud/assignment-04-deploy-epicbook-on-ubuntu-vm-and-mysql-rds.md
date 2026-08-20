@@ -192,19 +192,19 @@ Verify the frontend loads publicly, the backend responds through Nginx, and EC2 
 
 #### Screenshot 19 — Browser showing the EpicBook application loaded with the public IP visible
 
-Add your screenshot here.
+![](screenshots/Ass4sc19.JPG)
 
 ---
 
 #### Screenshot 20 — Terminal showing a successful API call through the public endpoint
 
-Add your screenshot here.
+![](screenshots/Ass4sc20.JPG)
 
 ---
 
 #### Screenshot 21 — Terminal showing a successful database connectivity test (`SELECT 1;` or similar)
 
-Add your screenshot here.
+![](screenshots/Ass4sc21.JPG)
 
 ---
 
