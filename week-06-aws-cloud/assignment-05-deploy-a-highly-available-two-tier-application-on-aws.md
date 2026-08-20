@@ -20,31 +20,31 @@ Build a VPC (10.0.0.0/16) with two public and two private subnets across two Ava
 
 #### Screenshot 1 — VPC details showing CIDR 10.0.0.0/16
 
-Add your screenshot here.
+![](screenshots/Ass5sc1.JPG)
 
 ---
 
 #### Screenshot 2 — Subnets list showing four subnets and their Availability Zones
 
-Add your screenshot here.
+![](screenshots/Ass5sc2.JPG)
 
 ---
 
 #### Screenshot 3 — Public route table showing the Internet Gateway route and both public-subnet associations
 
-Add your screenshot here.
+![](screenshots/Ass5sc3.JPG)
 
 ---
 
 #### Screenshot 4 — Private route table showing the NAT Gateway route and both private-subnet associations
 
-Add your screenshot here.
+![](screenshots/Ass5sc4.JPG)
 
 ---
 
 #### Screenshot 5 — NAT Gateway status showing Available and the Elastic IP
 
-Add your screenshot here.
+![](screenshots/Ass5sc5.JPG)
 
 ---
 
@@ -58,19 +58,19 @@ Create `ha-alb-sg` (HTTP public), `ha-web-sg` (HTTP only from `ha-alb-sg`, SSH f
 
 #### Screenshot 6 — ALB Security Group inbound rules
 
-Add your screenshot here.
+![](screenshots/Ass5sc6.JPG)
 
 ---
 
 #### Screenshot 7 — EC2 Security Group inbound rules showing the ALB Security Group reference and SSH from your IP
 
-Add your screenshot here.
+![](screenshots/Ass5sc7.JPG)
 
 ---
 
 #### Screenshot 8 — RDS Security Group inbound rule showing the database port allowed only from the EC2 Security Group
 
-Add your screenshot here.
+![](screenshots/Ass5sc8.JPG)
 
 ---
 
@@ -84,13 +84,13 @@ Launch a private, Multi-AZ RDS database (MySQL or PostgreSQL) using the private 
 
 #### Screenshot 9 — RDS summary showing Multi-AZ = Yes and Publicly accessible = No
 
-Add your screenshot here.
+![](screenshots/Ass5sc9.JPG)
 
 ---
 
 #### Screenshot 10 — RDS connectivity section showing the DB Subnet Group and Security Group
 
-Add your screenshot here.
+![](screenshots/Ass5sc10.JPG)
 
 ---
 
@@ -104,7 +104,7 @@ Create a Launch Template whose user data installs the web-server runtime, deploy
 
 #### Screenshot 11 — Launch Template details showing that user data exists, including a visible snippet
 
-Add your screenshot here.
+![](screenshots/Ass5sc11.JPG)
 
 ---
 
@@ -124,13 +124,13 @@ Create an internet-facing ALB across both public subnets with an HTTP listener a
 
 #### Screenshot 13 — ALB details showing two public subnets in two Availability Zones
 
-Add your screenshot here.
+![](screenshots/Ass5sc13.JPG)
 
 ---
 
 #### Screenshot 14 — Target group showing at least one healthy target
 
-Add your screenshot here.
+![](screenshots/Ass5sc14.JPG)
 
 ---
 
@@ -144,7 +144,7 @@ Create an Auto Scaling Group from the Launch Template across both public subnets
 
 #### Screenshot 15 — Auto Scaling Group showing desired, minimum, and maximum capacity and the selected subnet Availability Zones
 
-Add your screenshot here.
+![](screenshots/Ass5sc15.JPG)
 
 ---
 
