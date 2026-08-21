@@ -77,7 +77,7 @@ Run the script against your live AWS account and review the report honestly, not
 
 #### Screenshot 5 — Script output showing your Full Name and all five check results
 
-Add your screenshot here.
+![](screenshots/Ass7sc5.JPG)
 
 ---
 
@@ -91,13 +91,13 @@ Turn the script into a Claude Code skill named `/aws-audit` that runs the script
 
 #### Screenshot 6 — Skill file showing the restricted tool access
 
-Add your screenshot here.
+![](screenshots/Ass7sc6.JPG)
 
 ---
 
 #### Screenshot 7 — `/aws-audit` output showing the findings and Claude's recommendation
 
-Add your screenshot here.
+![](screenshots/Ass7sc7.JPG)
 
 ---
 
@@ -111,13 +111,13 @@ Pick one real finding from your baseline report (or deliberately open a security
 
 #### Screenshot 8 — Terminal output of the remediation command you ran yourself
 
-Add your screenshot here.
+![](screenshots/Ass7sc8.JPG)
 
 ---
 
 #### Screenshot 9 — Second script run showing the finding now passing
 
-Add your screenshot here.
+![](screenshots/Ass7sc9.JPG)
 
 ---
 
