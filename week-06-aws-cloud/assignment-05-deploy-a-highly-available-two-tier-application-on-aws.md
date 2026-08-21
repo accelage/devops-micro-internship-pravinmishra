@@ -218,7 +218,7 @@ Summarize the VPC/subnet layout, the ALB and Auto Scaling Group setup, the priva
 
 #### Screenshot 23 — A simple architecture diagram (hand-drawn is fine), or an AWS console overview showing the components
 
-![](screenshots/two-tier_HA.png)
+![](screenshots/two-tier_1HA.jpg)
 
 ---
 
