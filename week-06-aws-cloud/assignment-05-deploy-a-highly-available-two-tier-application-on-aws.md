@@ -110,7 +110,7 @@ Create a Launch Template whose user data installs the web-server runtime, deploy
 
 #### Screenshot 12 — A running instance created from the template showing the application responds on port 80
 
-Add your screenshot here.
+![](screenshots/Ass5sc12.JPG)
 
 ---
 
@@ -150,7 +150,7 @@ Create an Auto Scaling Group from the Launch Template across both public subnets
 
 #### Screenshot 16 — EC2 instances list showing two running instances in different Availability Zones
 
-Add your screenshot here.
+![](screenshots/Ass5sc16.JPG)
 
 ---
 
@@ -164,13 +164,13 @@ Confirm the application communicates with the RDS database through the ALB DNS n
 
 #### Screenshot 17 — Browser showing the application loaded through the ALB DNS name with the URL visible
 
-Add your screenshot here.
+![](screenshots/Ass5sc17.JPG)
 
 ---
 
 #### Screenshot 18 — Proof of a database write through a UI message or database query output
 
-Add your screenshot here.
+![](screenshots/Ass5sc18.JPG)
 
 ---
 
@@ -184,25 +184,27 @@ Test A: terminate one web instance and confirm the Auto Scaling Group replaces i
 
 #### Screenshot 19 — EC2 showing the terminated instance and the newly launched instance
 
-Add your screenshot here.
+![](screenshots/Ass5sc19.JPG)
+![](screenshots/Ass5sc19b.JPG)
 
 ---
 
 #### Screenshot 20 — Target group showing healthy targets after replacement
 
-Add your screenshot here.
+![](screenshots/Ass5sc20.JPG)
+![](screenshots/Ass5sc20b.JPG)
 
 ---
 
 #### Screenshot 21 — Evidence that an instance was removed, detached, placed in Standby, or stopped in one Availability Zone
 
-Add your screenshot here.
+![](screenshots/Ass5sc21.JPG)
 
 ---
 
 #### Screenshot 22 — Browser showing that the ALB DNS endpoint still works during the change
 
-Add your screenshot here.
+![](screenshots/Ass5sc22.JPG)
 
 ---
 
@@ -216,7 +218,7 @@ Summarize the VPC/subnet layout, the ALB and Auto Scaling Group setup, the priva
 
 #### Screenshot 23 — A simple architecture diagram (hand-drawn is fine), or an AWS console overview showing the components
 
-Add your screenshot here.
+![](screenshots/two-tier_HA.png)
 
 ---
 
@@ -224,7 +226,25 @@ Add your screenshot here.
 
 Write a short summary covering the network, ALB/ASG setup, RDS setup, and the results of Test A and Test B.
 
-Write your answer here.
+1. VPC and Subnets Across Two Availability Zones
+
+The application was deployed inside a custom VPC (10.0.0.0/16) spanning two Availability Zones to provide network-level redundancy. Each Availability Zone contains a public and private subnet. The public subnets (10.0.1.0/24 and 10.0.2.0/24) host the internet-facing ALB and web-tier EC2 instances, while the private subnets (10.0.11.0/24 and 10.0.12.0/24) are reserved for the database tier. An Internet Gateway provides internet connectivity to the public subnets, while a NAT Gateway provides outbound connectivity for private resources. This design reduces single points of failure and provides a foundation for high availability.
+
+2. ALB and Auto Scaling Group Setup
+
+An internet-facing Application Load Balancer (ALB) was deployed across both public subnets to provide a single, stable endpoint for users and distribute incoming HTTP traffic across healthy web servers. The web tier was managed through an Auto Scaling Group (ASG) using a Launch Template. The ASG maintained a minimum and desired capacity of 2 instances, distributed across the two Availability Zones, with the ability to scale up to 4 instances. ELB health checks allow unhealthy instances to be detected and replaced automatically, improving application availability and resilience.
+
+3. Private Multi-AZ RDS Setup
+
+The database tier was deployed using Amazon RDS with Multi-AZ enabled across the two private subnets. The database was configured with public access disabled, ensuring that it could not be accessed directly from the internet. Connectivity was restricted through the ha-db-sg Security Group so that only the web-tier EC2 instances could communicate with the database on the required database port. Multi-AZ provides automatic database failover capability, helping maintain database availability in the event of an infrastructure failure in the primary Availability Zone.
+
+4. Results of the High-Availability Tests
+
+Test A — Instance Failure: One web-tier EC2 instance was terminated intentionally. The Auto Scaling Group detected the reduction in capacity and automatically launched a replacement instance. The ALB continued routing traffic to healthy targets, demonstrating automated recovery and web-tier resilience.
+
+Test B — Availability Zone Impact: One web instance in an Availability Zone was stopped/removed as part of the failure simulation. The remaining healthy instance in the other Availability Zone continued serving requests through the ALB. The application remained accessible through the ALB DNS endpoint, demonstrating that the architecture could continue operating despite the simulated Availability Zone impact.
+
+Overall result: The tests demonstrated that the architecture was designed not only to deploy successfully, but to remain available, detect failures, recover automatically, and continue serving users when components fail.
 
 ---
 
@@ -240,13 +260,13 @@ Publish a LinkedIn post about the high-availability build, including the ALB URL
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/topedavids_aws-aws-cloudengineering-share-7496621924006092801-1Skk/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![](screenshots/ass5_linkedin.JPG)
 
 ---
 
