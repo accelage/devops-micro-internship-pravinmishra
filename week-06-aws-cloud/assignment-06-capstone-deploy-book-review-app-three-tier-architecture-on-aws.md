@@ -1,4 +1,4 @@
-# Assignment 6 — Capstone: Deploy Book Review App (Three-Tier Architecture) on AWS
+# Assignment 6 — Capstone Assignment — Deploy Book Review App (Three-Tier Architecture) on AWS
 
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
@@ -38,7 +38,7 @@ For this project, I used the US-East-2 Region (Ohio). I usually use EU-NORTH-1(S
 
 ---
 
-**Services used:**
+**Services:**
 
 
 The AWS services used for the Book Review App Project includes:
@@ -107,37 +107,37 @@ Capture visual proof of every tier and load balancer.
 
 ### Evidence
 
-#### Screenshot 1 — Web Tier EC2 instance in a public subnet
+#### Web EC2
 
 ![](screenshots/Ass6sc1.JPG)
 
 ---
 
-#### Screenshot 2 — App Tier EC2 instance in a private subnet
+#### App EC2
 
 ![](screenshots/Ass6sc2.JPG)
 
 ---
 
-#### Screenshot 3 — Public Application Load Balancer configuration or healthy targets
+#### Public ALB
 
 ![](screenshots/Ass6sc3.JPG)
 
 ---
 
-#### Screenshot 4 — Internal Application Load Balancer configuration or healthy targets
+#### Internal ALB
 
 ![](screenshots/Ass6sc4.JPG)
 
 ---
 
-#### Screenshot 5 — Amazon RDS for MySQL showing Multi-AZ and the read replica
+#### RDS + Replica
 
 ![](screenshots/Ass6sc5.JPG)
 
 ---
 
-#### Screenshot 6 — Book Review App UI working through the public ALB
+#### App UI proof
 
 ![](screenshots/Ass6sc6.JPG)
 
@@ -159,7 +159,7 @@ Mapping a Symlink in my site-available folder with the site-enabled folder for n
 
 ---
 
-**Issues encountered and fixes:**
+**Issues + fixes:**
 
 I had issues with my database name at first as I was getting ECONN and SequelizeError, but that was really fixed by checking my database name or creating the expected database name if it doesn't exist.
 
@@ -189,7 +189,7 @@ https://www.linkedin.com/posts/topedavids_as-a-cybersecurity-inclined-devops-eng
 
 ---
 
-#### Screenshot — Published LinkedIn post
+#### Screenshot of LinkedIn post
 
 ![](screenshots/linkedin6.JPG)
 
