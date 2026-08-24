@@ -291,13 +291,13 @@ Suggested tags:
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/topedavids_aws-cloudsecurity-awscli-share-7497716015141789696-5UwY/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA
 
 ---
 
 #### Screenshot of Published LinkedIn Post
 
-Add your screenshot here.
+![](screenshots/linkedin_stat.JPG)
 
 ---
 
