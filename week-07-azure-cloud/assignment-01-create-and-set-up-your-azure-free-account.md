@@ -30,13 +30,13 @@ Sign in to the Azure Portal, locate key services (Resource Groups, Virtual Machi
 
 #### Screenshot 1 — Azure Portal homepage after successful login
 
-Add your screenshot here.
+![](screenshots/Ass1sc1.JPG)
 
 ---
 
 #### Screenshot 2 — "Subscriptions" section showing the "Free Trial" subscription
 
-Add your screenshot here.
+![](screenshots/Ass1sc2.JPG)
 
 ---
 
@@ -44,7 +44,11 @@ Add your screenshot here.
 
 Write a three-to-four-line paragraph explaining which Azure services you plan to explore first and why.
 
-Write your answer here.
+The main services I intend to explore on Azure are majorly under the following categories:
+1.  Compute: Virtual Machines- the computer/server that runs in the cloud, it saves organizations the overhead cost of purchasing redundant servers.
+2.  Storage: Storage Accounts helps in saving files, data, etc securely in the cloud. It is also used in static site hosting.
+3.  Databases: Used in database management, either relational or NoSQL database systems like Azure SQL and Cosmos DB.
+
 
 ---
 
