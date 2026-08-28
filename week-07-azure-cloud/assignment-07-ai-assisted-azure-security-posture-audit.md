@@ -137,7 +137,18 @@ Pick one WARN or FAIL finding (or deliberately open an NSG rule to port 22 from 
 
 Compare this assignment to the AWS audit you built in Week 6: which finding categories map to each other across the two clouds, and what stayed exactly the same about the workflow even though the `az`/`aws` commands are completely different?
 
-Add your answer here
+The AWS audit from Week 6 and this Azure deployment use the exact same security audit workflow, even though the underlying CLI commands differ.
+
+Key finding categories line up across both platforms:
+
+* Network security: AWS reviews Security Groups for unrestricted SSH or MySQL ports, while Azure checks Network Security Groups for open SSH or RDP access.
+* Storage security: AWS checks S3 bucket public access settings, while Azure checks whether Storage Accounts permit public blob access.
+* Disk encryption: AWS checks EBS volume encryption status, while Azure verifies VM OS disk encryption.
+* Database exposure: AWS checks if RDS instances are publicly exposed, while Azure verifies if the MySQL Flexible Server has public network access enabled.
+
+The core workflow remained identical across both environments: Gather → Analyze → Remediate → Verify. Both audits use read-only CLI commands to gather evidence, generate a report with PASS, WARN, or FAIL statuses, and use Agentic AI to suggest safe fixes. The human operator then reviews and applies the remediation before running a second audit to confirm the fix.
+
+Ultimately, the main difference comes down to the toolset—AWS uses `aws` CLI commands while Azure uses `az` commands. The underlying security principles, evidence gathering, least-privilege access, and human-in-the-loop remediation stay the same across both cloud providers.
 
 ---
 
