@@ -218,7 +218,17 @@ http://20.94.78.199/
 
 Summarize what worked, issues encountered and how they were fixed, and the availability/security/secrets/monitoring/backup choices made.
 
-Write your answer here.
+Architected and deployed a full-stack Book Review Application using Next.js, Express, and MySQL on a 5-subnet Azure Virtual Network. The traffic flows sequentially from a public Load Balancer to the web tier, through an internal Load Balancer to the app tier, and finally to a MySQL Flexible Server.
+
+To keep the setup secure, neither the app nor the database tiers use public IP addresses, and Network Security Groups isolate traffic at every subnet level. The frontend and backend communicate with the database over a private, SSL-enforced connection. On startup, the backend automatically sets up its schema and seeds initial data, which was verified through API calls. The public endpoint handles login and registration pages as expected, and system diagnostics are set up to stream logs from both load balancers into a shared Log Analytics workspace. Credentials and JWT secrets are secured in Azure Key Vault using RBAC rules, while the compute layers remain stateless to simplify redeployments alongside automated MySQL backups.
+
+Working within a strict 3-IP quota and tight timeline required a few specific workarounds during deployment:
+
+Air-Gapped App Tier: Skipping a NAT Gateway to save IP quota left the private subnets without outbound internet access. To get around this without access to package managers or tools like pm2, the web VM was used as a jump host. Dependencies and the Node.js runtime were installed on the web VM first, then copied over the private network to the app tier, where the process was launched using nohup.
+
+Environment Configuration: An initial database connection error was fixed by correcting a typo in the .env password file. The frontend missing an API URL environment variable temporarily blocks writes like registering or posting reviews through the public path, though read operations work normally.
+
+Due to the single-VM setup per tier under current quota constraints, both load balancers rely on basic health probes rather than full multi-instance failover testing.
 
 ---
 
