@@ -40,19 +40,19 @@ Create a dedicated Resource Group and VNet with separate subnets for the web, ap
 
 #### Screenshot 3 — Resource Group overview showing the assignment resources
 
-Add your screenshot here.
+![](screenshots\Ass6sc3.JPG)
 
 ---
 
 #### Screenshot 4 — VNet overview showing the address space and all required subnets
 
-Add your screenshot here.
+![](screenshots\Ass6sc4.JPG)
 
 ---
 
 #### Screenshot 5 — Route-table or Private DNS evidence where applicable
 
-Add your screenshot here.
+![](screenshots\Ass6sc5.JPG)
 
 ---
 
@@ -66,7 +66,7 @@ Apply least-privilege NSG rules so traffic flows Internet → public entry point
 
 #### Screenshot 6 — NSG rules proving least-privilege access between the tiers
 
-Add your screenshot here.
+![](screenshots\Ass6sc6.JPG)
 
 ---
 
@@ -86,13 +86,13 @@ Deploy the Book Review App presentation layer on the approved web-tier compute s
 
 #### Screenshot 8 — Web-tier compute overview showing subnet and availability configuration
 
-Add your screenshot here.
+![](screenshots\Ass6sc8.JPG)
 
 ---
 
 #### Screenshot 9 — Terminal or service output proving the presentation layer is running
 
-Add your screenshot here.
+![](screenshots\Ass6sc9.JPG)
 
 ---
 
@@ -106,13 +106,13 @@ Deploy the Book Review App backend privately in the application subnet, configur
 
 #### Screenshot 10 — Application-tier compute overview showing private subnet placement
 
-Add your screenshot here.
+![](screenshots\Ass6sc10.JPG)
 
 ---
 
 #### Screenshot 11 — Backend process, service, or listening-port evidence
 
-Add your screenshot here.
+![](screenshots\Ass6sc11.JPG)
 
 ---
 
@@ -132,19 +132,19 @@ Create a private Azure managed database (public access disabled), with availabil
 
 #### Screenshot 13 — Database overview showing private connectivity and public access disabled
 
-Add your screenshot here.
+![](screenshots\Ass6sc13.JPG)
 
 ---
 
 #### Screenshot 14 — Availability, backup, and retention configuration
 
-Add your screenshot here.
+![](screenshots\Ass6sc14.JPG)
 
 ---
 
 #### Screenshot 15 — Successful schema or connectivity verification (without exposing credentials)
 
-Add your screenshot here.
+![](screenshots\Ass6sc15.JPG)
 
 ---
 
