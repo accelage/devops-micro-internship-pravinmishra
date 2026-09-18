@@ -24,19 +24,19 @@ This project will use the Git repository and Ansible controller prepared in Assi
 
 #### Screenshot 1 — Terminal showing the complete `ansible-adhoc-lab` project structure
 
-Add your screenshot here.
+![](screenshots/Ass2sc1.JPG)
 
 ---
 
 #### Screenshot 2 — Terminal showing `git status --short` with the new project files and updated `.gitignore`
 
-Add your screenshot here.
+![](screenshots/Ass2sc2.JPG)
 
 ---
 
 ### Notes
 
-Add your task notes here.
+Setting up the platform for dev and prod.
 
 ---
 
@@ -57,25 +57,25 @@ Do not configure both providers for this assignment.
 
 #### Screenshot 3 — Terraform configuration showing the three or four server roles and the `for_each` or `count` implementation
 
-Add your screenshot here.
+![](screenshots/Ass2sc3.JPG)
 
 ---
 
 #### Screenshot 4 — Terraform configuration showing SSH restricted to the controller IP and HTTP allowed only for web hosts
 
-Add your screenshot here.
+![](screenshots/Ass2sc4.JPG)
 
 ---
 
 #### Screenshot 5 — Terraform output configuration showing how public IP addresses are associated with the server roles
 
-Add your screenshot here.
+![](screenshots/Ass2sc5.JPG)
 
 ---
 
 ### Notes
 
-Add your task notes here.
+setting up terraform modules for modularity
 
 ---
 
@@ -89,19 +89,19 @@ Initialize and validate the Terraform configuration, review the execution plan, 
 
 #### Screenshot 6 — Final `terraform apply` output showing `Apply complete`
 
-Add your screenshot here.
+![](screenshots/Ass2sc6.JPG)
 
 ---
 
 #### Screenshot 7 — `terraform output public_ips` showing the role-to-IP mapping for all three or four VMs
 
-Add your screenshot here.
+![](screenshots/Ass2sc7.JPG)
 
 ---
 
 #### Screenshot 8 — Azure Portal or AWS Management Console showing all three or four VMs in the `Running` state, with their role-based names visible
 
-Add your screenshot here.
+![](screenshots/Ass2sc8.JPG)
 
 ---
 
@@ -121,7 +121,7 @@ Verify that each managed VM can be accessed from the Ansible controller using SS
 
 #### Screenshot 9 — Terminal showing successful SSH hostname output from all VMs
 
-Add your screenshot here.
+![](screenshots/Ass2sc9.JPG)
 
 ---
 
@@ -143,13 +143,13 @@ The inventory allows Ansible to run commands against all servers, or only specif
 
 #### Screenshot 10 — `inventory.ini` showing the `web`, `app`, and `db` groups
 
-Add your screenshot here.
+![](screenshots/Ass2sc10.JPG)
 
 ---
 
 #### Screenshot 11 — Output of `ansible-inventory -i inventory.ini --graph`
 
-Add your screenshot here.
+![](screenshots/Ass2sc11.JPG)
 
 ---
 
@@ -171,37 +171,37 @@ This task proves that the inventory is working and that Ansible can control mult
 
 #### Screenshot 12 — Output of `ansible all -i inventory.ini -m ping`
 
-Add your screenshot here.
+![](screenshots/Ass2sc12.JPG)
 
 ---
 
 #### Screenshot 13 — Output of `ansible all -i inventory.ini -m command -a "uptime"`
 
-Add your screenshot here.
+![](screenshots/Ass2sc13.JPG)
 
 ---
 
 #### Screenshot 14 — Output of `ansible web -i inventory.ini -m apt -a "name=nginx state=present update_cache=yes" --become`
 
-Add your screenshot here.
+![](screenshots/Ass2sc14.JPG)
 
 ---
 
 #### Screenshot 15 — Output of `ansible web -i inventory.ini -m service -a "name=nginx state=started enabled=yes" --become`
 
-Add your screenshot here.
+![](screenshots/Ass2sc15.JPG)
 
 ---
 
 #### Screenshot 16 — Output of `ansible all -i inventory.ini -m apt -a "name=htop state=present update_cache=yes" --become`
 
-Add your screenshot here.
+![](screenshots/Ass2sc16.JPG)
 
 ---
 
 #### Screenshot 17 — Output of `ansible web -i inventory.ini -m command -a "systemctl is-active nginx"`
 
-Add your screenshot here.
+![](screenshots/Ass2sc17.JPG)
 
 ---
 
@@ -235,37 +235,37 @@ Answer the following in your own words:
 
 **1. What is the purpose of an Ansible inventory file?**
 
-Add your answer here.
+It lists and organizes your managed nodes into logical groups, enabling Ansible to target specific servers or entire tiers efficiently during execution.
 
 ---
 
 **2. What is the difference between the `web`, `app`, and `db` groups in your inventory?**
 
-Add your answer here.
+The groups organize servers according to their role. The web group contains the web server that runs Nginx, the app group contains the application server, and the db group contains the database server. Grouping lets me run a command only on the servers that need it.
 
 ---
 
 **3. What does the Ansible `ping` module verify?**
 
-Add your answer here.
+It tests network and SSH connectivity, confirms that a valid Python interpreter is present on the remote host, and validates that Ansible can successfully communicate with the target node
 
 ---
 
 **4. Why do package installation commands require `--become`?**
 
-Add your answer here.
+Package installation usually requires administrator or root privileges. The --become option allows Ansible to run the command with elevated privileges, similar to using sudo on the managed server.
 
 ---
 
 **5. When would you use an ad-hoc command instead of a playbook?**
 
-Add your answer here.
+I would use an ad-hoc command for a quick, one-time task such as checking uptime, checking disk space, testing connectivity, restarting a service, or installing a package on a few servers. A playbook is better when the task must be repeated consistently or has several steps.
 
 ---
 
 **6. What is one challenge you faced while setting up SSH or inventory, and how did you fix it?**
 
-Add your answer here.
+During initial SSH verification, connections to the public instance timed out due to a dynamic change in the local workstation's public IP, which caused packets to be dropped by the security group. This was resolved by re-querying the controller's current IP address, updating terraform.tfvars, and running terraform apply -auto-approve to update the inbound port 22 firewall rule without disrupting the running virtual machines.
 
 ---
 
