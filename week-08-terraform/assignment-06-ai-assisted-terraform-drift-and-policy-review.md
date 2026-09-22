@@ -507,11 +507,11 @@ Suggested tags:
 
 ### LinkedIn Post URL
 
-[Add your LinkedIn post URL here.](https://www.linkedin.com/posts/topedavids_aws-terraform-devops-activity-7506665562115121153-oehV?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA)
+https://www.linkedin.com/posts/topedavids_dmibypravinmishra-terraform-agenticai-activity-7508214889924943874-6jBe?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA
 
 ### Published LinkedIn Post Screenshot — Mandatory
 
-![](screenshots/linked_post.JPG)
+![](screenshots/linked_6.JPG)
 
 ---
 
