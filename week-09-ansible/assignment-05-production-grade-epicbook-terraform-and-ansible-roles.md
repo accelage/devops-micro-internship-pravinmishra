@@ -564,13 +564,13 @@ PM2 initially started the application without loading database environment varia
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+(https://www.linkedin.com/posts/topedavids_devops-azure-cloudcomputing-share-7508222694102925312-Ysvd/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA)
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![](screenshots/linkedin_ass5.JPG)
 
 ---
 
