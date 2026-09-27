@@ -440,13 +440,13 @@ An unvetted high-risk change or misinterpretation could disrupt production servi
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/topedavids_devops-ansible-claudecode-share-7509973907286925313-vRXG/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![](screenshots/linkedpost.JPG)
 
 ---
 
