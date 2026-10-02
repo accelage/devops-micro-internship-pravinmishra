@@ -10,7 +10,7 @@ Part of the DevOps Micro Internship (DMI) — Agentic AI Track
 
 **GitHub Repository or Fork URL:** https://github.com/accelage
 
-**Public LinkedIn Post URL:** https://www.linkedin.com/topedavids
+**Public LinkedIn Post URL:** https://www.linkedin.com/in/topedavids
 
 ---
 
@@ -42,7 +42,7 @@ Confirm that both EpicBook pipelines are healthy and place the supplied assignme
 
 Terminal output showing the latest completed Infrastructure and Application Pipeline runs with successful results.
 
-Add your screenshot here.
+![](screenshots/myAss5sc2.JPG)
 
 ## Notes
 
@@ -70,7 +70,7 @@ Configure the supplied project context and verify the safety boundaries Claude m
 
 `CLAUDE.md` open in the editor with the Project Overview, Incident Workflow, Safety Rules, and Output Rules visible.
 
-Add your screenshot here.
+![](screenshots/myAss5sc2.JPG)
 
 ## Notes
 
@@ -104,7 +104,7 @@ Configure the supplied Bash script and verify that it retrieves and classifies e
 
 Editor showing the script configuration variables, report filenames, check-function array, and read-only log-retrieval functions. Ensure that no token is visible.
 
-Add your screenshot here.
+![](screenshots/myAss5sc3.JPG)
 
 ---
 
@@ -112,7 +112,7 @@ Add your screenshot here.
 
 Terminal showing successful Bash syntax validation and executable file permission.
 
-Add your screenshot here.
+![](screenshots/myAss5sc4.JPG)
 
 ## Notes
 
@@ -150,7 +150,7 @@ Run the supplied script against the healthy baseline and verify the initial pipe
 
 Healthy pipeline report showing your Full Name, both successful pipelines, Overall Status `HEALTHY`, and captured exit code `0`.
 
-Add your screenshot here.
+![](screenshots/myAss5sc5.JPG)
 
 ## Notes
 
@@ -176,7 +176,7 @@ Configure the supplied Claude Code skill and verify that it runs the Bash tool a
 
 `SKILL.md` showing the frontmatter, manual-invocation setting, narrowly scoped tools, safety rules, and required output structure.
 
-Add your screenshot here.
+![](screenshots/myAss5sc6.JPG)
 
 ---
 
@@ -184,7 +184,7 @@ Add your screenshot here.
 
 Healthy `/pipeline-triage` result showing that both pipelines are healthy and no fix is required.
 
-Add your screenshot here.
+![](screenshots/myAss5sc7.JPG)
 
 ## Notes
 
@@ -218,7 +218,7 @@ Create a controlled Application Pipeline failure that can be diagnosed without c
 
 Failed Application Pipeline run showing the temporary branch, failed status, failed step, and relevant non-sensitive error evidence.
 
-Add your screenshot here.
+![](screenshots/myAss5sc8.JPG)
 
 ## Notes
 
@@ -256,7 +256,7 @@ Use `/pipeline-triage` to classify the failed Application Pipeline without allow
 
 `/pipeline-triage` output and saved incident report showing the affected pipeline, failure category, sanitized evidence, recommendation, and your Full Name.
 
-Add your screenshot here.
+![](screenshots/myAss5sc9.JPG)
 
 ## Notes
 
@@ -294,7 +294,7 @@ Apply the recommended fix manually and verify that the Application Pipeline and 
 
 Corrected Application Pipeline run showing the temporary branch and successful status.
 
-Add your screenshot here.
+![](screenshots/myAss5sc9b.JPG)
 
 ---
 
@@ -302,7 +302,7 @@ Add your screenshot here.
 
 Recovery `/pipeline-triage` output showing Overall Status `HEALTHY`, exit code `0`, your Full Name, and both saved report filenames.
 
-Add your screenshot here.
+![](screenshots/myAss5sc11.JPG)
 
 ## Notes
 
