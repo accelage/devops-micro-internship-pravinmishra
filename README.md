@@ -142,7 +142,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | 07 | Azure Cloud | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/topedavids_microsoftazure-cloudengineering-azurevm-share-7497458065101938688-SncV/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA | https://medium.com/@tope.adedavids/my-epicbook-three-tier-app-deployment-project-89afbbd4ac9d |
 | 08 | Terraform | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/topedavids_aws-terraform-devops-activity-7506665562115121153-oehV?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA | https://medium.com/@tope.adedavids/building-a-production-style-3-tier-book-review-app-on-aws-with-terraform-and-claude-code-57b10881f3c9 |
 | 09 | Ansible | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/topedavids_devops-azure-cloudcomputing-share-7508222694102925312-Ysvd/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA | https://medium.com/@tope.adedavids/deploying-epicbook-on-microsoft-azure-a-hands-on-journey-through-cloud-infrastructure-networking-fcf80322ff9b |
-| 10 | Azure DevOps (CI/CD) | 🔄 In Progress | ⏳ Pending | — | — |
+| 10 | Azure DevOps (CI/CD) | 🔄 ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/topedavids_devops-cicd-azuredevops-share-7509985612142194688-cL78/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA | https://medium.com/@tope.adedavids/building-a-multi-stage-react-ci-cd-pipeline-with-azure-devops-c93856383380 |
 | 11 | Docker | 🔄 In Progress | ⏳ Pending | — | — |
 | 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
 | 13 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
