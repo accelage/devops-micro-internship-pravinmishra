@@ -28,7 +28,7 @@ Create separate directories and files for the Terraform infrastructure and Ansib
 
 ### Notes
 
-Add your task notes here.
+I created the mini-finance project structure with separate terraform and ansible directories. I also created the required Terraform configuration files, Ansible files, README.md, and .gitignore to keep the project properly organized.
 
 ---
 
@@ -54,7 +54,7 @@ Use Terraform to provision an Ubuntu Virtual Machine with the required Azure net
 
 ### Notes
 
-Add your task notes here.
+I created the Terraform configuration for the Azure infrastructure, including the Resource Group, Virtual Network, subnet, Network Security Group, Public IP, Network Interface, and Ubuntu Virtual Machine. SSH access on port 22 was restricted to my controller's public IP address, while HTTP port 80 was opened for public access to the website. I also associated the NSG with the VM's Network Interface.
 
 ---
 
@@ -80,7 +80,7 @@ Format and validate the Terraform configuration, review the execution plan, and 
 
 ### Notes
 
-Add your task notes here.
+I formatted, initialized, validated, and applied the Terraform configuration to provision the Azure infrastructure. During deployment, I encountered a VM quota limitation with my initial VM size, so I changed the size to Standard_D2als_v6. The deployment then completed successfully, and Terraform returned the public IP address of the Azure VM.
 
 ---
 
@@ -100,7 +100,7 @@ Confirm that the Ansible controller can connect to the Terraform-provisioned Azu
 
 ### Notes
 
-Add your task notes here.
+I tested passwordless SSH connectivity from my Ansible controller to the Azure VM using my existing SSH key. The connection was successful, and the VM returned the hostname mini-finance, confirming that key-based SSH authentication was working correctly.
 
 ---
 
@@ -273,7 +273,7 @@ Validate the syntax of the multi-play Ansible playbook and run it to install Ngi
 
 ### Notes
 
-Add your task notes here.
+I first performed an Ansible syntax check to confirm that site.yml was valid. I then ran the complete multi-play playbook to configure Nginx, deploy the Mini Finance website, and verify the deployment. During testing, I discovered that the original repository URL returned “Repository not found.” I identified the correct repository URL, updated site.yml, and reran the playbook successfully. The final play confirmed HTTP status code 200 with no failed or unreachable hosts.
 
 ---
 
@@ -293,7 +293,7 @@ Confirm that the Mini Finance website is publicly accessible through the Azure V
 
 ### Website URL
 
-Add your deployed website URL below:
+http://172.191.198.108
 
 ```text
 http://<PUBLIC_IP>
@@ -411,15 +411,15 @@ Overall, the project demonstrated how infrastructure provisioning and server con
 
 #### Screenshot 15 — Published LinkedIn post showing the text and at least one deployment screenshot
 
-Add your screenshot here.
+![](screenshots/myLinkedpost4.JPG)
 
 ---
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
+(https://www.linkedin.com/posts/topedavids_devops-devopsmicrointernship-terraform-share-7511791404894003201-2yIt/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA)
 
-`Add your URL here`
+
 
 ---
 
