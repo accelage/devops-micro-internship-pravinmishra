@@ -99,8 +99,8 @@ This is not a course. It is an internship-style program — real deployments, re
  **Week 09 → Ansible** -->
  [![Week 09 – Ansible](./badges/week-09.svg)](./week-09-ansible/)
 
-<!-- Week 10 → Azure DevOps CI/CD -->
-<!-- [![Week 10 – CI/CD](./badges/week-10.svg)](./week-10-azure-devops/) -->
+ **Week 10 → Azure DevOps CI/CD** -->
+ [![Week 10 – CI/CD](./badges/week-10.svg)](./week-10-azure-devops/)git 
 
 <!-- Week 11 → Docker -->
 <!-- [![Week 11 – Docker](./badges/week-11.svg)](./week-11-docker/) -->
