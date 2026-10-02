@@ -107,7 +107,7 @@ Initialize and validate the Terraform configuration, review the execution plan, 
 
 ### Notes
 
-Add your task notes here.
+I initialized the Terraform working directory, formatted and validated the configuration, reviewed the execution plan, and then applied the configuration to AWS. Terraform successfully provisioned the required infrastructure and three Ubuntu EC2 instances. The final apply completed successfully with 11 resources added, and I used terraform output public_ips to retrieve the public IP addresses mapped to web1, app1, and db1. I also verified in the AWS Management Console that all three EC2 instances were running.
 
 ---
 
@@ -127,7 +127,7 @@ Verify that each managed VM can be accessed from the Ansible controller using SS
 
 ### Notes
 
-Add your task notes here.
+I verified SSH key-based authentication from my WSL Ansible controller to all three Ubuntu EC2 instances. I retrieved the public IP addresses from the Terraform outputs and connected using the ubuntu user and my ED25519 SSH key. I executed the hostname command remotely against web1, app1, and db1, and each server returned its hostname successfully. During testing, I also refreshed the controller's public IP /32 security-group rule when required so that SSH remained restricted to my current public IP.
 
 ---
 
@@ -155,7 +155,7 @@ The inventory allows Ansible to run commands against all servers, or only specif
 
 ### Notes
 
-Add your task notes here.
+I created a custom inventory.ini file and organized the three managed servers into the [web], [app], and [db] groups. Each inventory host uses its EC2 public IP address because my Ansible controller is outside the AWS VPC. I configured the ubuntu SSH user and my existing ED25519 private-key path for authentication. I then used ansible-inventory -i inventory.ini --graph to verify that web1, app1, and db1 were assigned to the correct inventory groups.
 
 ---
 
@@ -207,7 +207,7 @@ This task proves that the inventory is working and that Ansible can control mult
 
 ### Notes
 
-Add your task notes here.
+I used Ansible ad-hoc commands to manage the three EC2 instances without creating a playbook. I first used the Ansible ping module to verify SSH connectivity and Python execution on all managed hosts, followed by the command module to check their uptime. I targeted only the web group to install, start, and enable Nginx using privilege escalation with --become. I then installed htop across all managed servers and verified that the Nginx service on the web server returned active. These tests demonstrated how Ansible inventory groups can be used to perform either role-specific or environment-wide administrative operations from a single controller.
 
 ---
 
@@ -219,13 +219,13 @@ Add your task notes here.
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/topedavids_devops-devopsmicrointernship-terraform-share-7511775978298417152-GX2C/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![](screenshots/lined2post.JPG)
 
 ---
 
