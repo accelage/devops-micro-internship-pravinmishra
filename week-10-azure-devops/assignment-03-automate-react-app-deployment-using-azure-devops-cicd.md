@@ -37,7 +37,7 @@ Add a screenshot of Azure Repos showing:
 * `main` branch
 * Project files
 
-Add your screenshot here.
+![](screenshots/Ass3sc1.JPG)
 
 ---
 
@@ -81,7 +81,7 @@ Add a screenshot of the Azure Pipeline YAML open in the editor showing:
 * Publish stage
 * Deploy stage
 
-Add your screenshot here.
+![](screenshots/Ass3sc2.JPG)
 
 > Do not expose passwords, private keys, tokens, or cloud credentials.
 
@@ -104,7 +104,7 @@ Add a screenshot of one Azure DevOps pipeline run showing all four stages succee
 * Publish
 * Deploy
 
-Add your screenshot here.
+![](screenshots/Ass3sc3.JPG)
 
 ---
 
@@ -122,7 +122,7 @@ Add a screenshot of the pipeline SSH verification log or VM terminal showing the
 
 `/var/www/html`
 
-Add your screenshot here.
+![](screenshots/Ass3sc4.JPG)
 
 ---
 
@@ -143,21 +143,34 @@ Add a browser screenshot showing:
 * Your Full Name
 * Deployment date
 
-Add your screenshot here.
+![](screenshots/Ass3sc5.JPG)
 
 ## Final Application URL
 
-`http://<vm-public-ip>`
+`http://32.199.177.28`
 
 Replace the placeholder and paste your final application URL below:
 
-[Paste your final application URL here.]
+`http://32.199.177.28`
 
 ---
 
 # CI/CD Workflow Summary
 
-Write a short explanation of the CI/CD workflow you created.
+The CI/CD workflow I created automates the process of taking a React application from Azure Repos to a live Ubuntu web server.
+
+The pipeline is triggered automatically whenever a change is committed to the main branch. It follows four stages:
+
+Build → Test → Publish → Deploy
+
+Build: The pipeline checks out the React project, installs the required Node.js dependencies, creates the production build, and publishes the build/ output as a pipeline artifact.
+Test: The application is tested in CI mode. The pipeline stops if the tests fail.
+Publish: The build artifact is downloaded and verified to ensure the required index.html and static assets are present before release.
+Deploy: The verified artifact is transferred to the Ubuntu VM through an Azure DevOps SSH Service Connection and deployed to /var/www/html, where Nginx serves the React application.
+
+Terraform was used to provision the target VM, while Ansible configured Nginx and the server environment.
+
+Finally, the deployment is verified by checking the deployed files, Nginx status, HTTP response, and the application through the browser.
 
 [Write your summary here.]
 
@@ -174,11 +187,11 @@ Add a screenshot of your LinkedIn post showing:
 * Post text
 * At least one image or link
 
-Add your screenshot here.
+![](screenshots/linkedin3post.JPG)
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here.]
+https://www.linkedin.com/posts/topedavids_devops-devopsmicrointernship-azuredevops-share-7511133165911072768-SChP/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA
 
 > Do not expose VM passwords, tokens, private keys, cloud credentials, or other sensitive information.
 
