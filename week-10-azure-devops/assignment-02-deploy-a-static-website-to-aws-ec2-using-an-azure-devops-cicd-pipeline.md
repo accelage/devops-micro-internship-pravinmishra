@@ -36,7 +36,7 @@ Add a screenshot of Azure Repos showing:
 * Project files
 * `index.html`
 
-Add your screenshot here.
+![](screenshots/Ass2sc1.JPG)
 
 ---
 
@@ -65,7 +65,7 @@ Add a screenshot of the saved SSH Service Connection **Overview** page showing:
 * Service Connection name
 * SSH connection type
 
-Add your screenshot here.
+![](screenshots/Ass2sc2.JPG)
 
 > Do not expose a password, SSH private key, passphrase, or another credential.
 
@@ -91,7 +91,7 @@ Add a screenshot of `azure-pipelines.yml` open in the Azure Repos editor showing
 * `CopyFilesOverSSH@0` task
 * `SSH@0` verification task
 
-Add your screenshot here.
+![](screenshots/Ass2sc3.JPG)
 
 > Ensure that no password, SSH private key, PAT, or AWS credential is visible.
 
@@ -115,7 +115,7 @@ Add a screenshot of the successful pipeline run and log summary showing:
 * Remote-verification step completed
 * Your Full Name visible in the pipeline output
 
-Add your screenshot here.
+![](screenshots/Ass2sc4.JPG)
 
 ---
 
@@ -136,15 +136,15 @@ Add a browser screenshot showing:
 * Your Full Name
 * Updated website content after the automatic deployment
 
-Add your screenshot here.
+![](screenshots/Ass2sc5.JPG)
 
 ## Final Website URL
 
-`http://<target-vm-public-ip>`
+http://34.203.31.150
 
 Replace the placeholder with your actual website URL:
 
-[Paste your final website URL here]
+http://34.203.31.150
 
 ---
 
@@ -152,7 +152,7 @@ Replace the placeholder with your actual website URL:
 
 Write a short summary of the completed CI/CD workflow.
 
-[Write your summary here.]
+This is a single stage deployment, as the page is a static one. The azure devops pipeline just took the page and deployed it based on the instruction therein as the files do not need to be built, it has the index.html already.
 
 ---
 
@@ -167,11 +167,11 @@ Add a screenshot of your LinkedIn post containing:
 * Three to five lines describing the CI/CD workflow
 * A screenshot of the successful pipeline or deployed website
 
-Add your screenshot here.
+![](screenshots/linkedin2post.JPG)
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here]
+https://www.linkedin.com/posts/topedavids_devops-cicd-azuredevops-share-7509985612142194688-cL78/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA
 
 > Do not expose AWS credentials, SSH private keys, passwords, PATs, or other sensitive information.
 
