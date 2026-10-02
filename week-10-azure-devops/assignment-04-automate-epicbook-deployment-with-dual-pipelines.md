@@ -70,7 +70,7 @@ Add a screenshot of the Infrastructure Pipeline run showing:
 * `backend_private_ip`
 * `mysql_fqdn`
 
-Add your screenshot here.
+![](screenshots/myAss4sc1.JPG)
 
 > Do not expose the MySQL password, Client Secret, Terraform state, SSH private key, or another sensitive value.
 
@@ -86,7 +86,7 @@ Add a screenshot of the Azure Portal Resource Group overview showing:
 * Azure Database for MySQL Flexible Server
 * Related EpicBook resources
 
-Add your screenshot here.
+![](screenshots/myAss4sc2.JPG)
 
 > Hide sensitive IDs, credentials, and database details.
 
@@ -124,7 +124,7 @@ Run the Application Pipeline to configure the VMs, deploy EpicBook, and verify t
 
 Add a screenshot of the Application Pipeline run summary showing all required stages or jobs succeeded.
 
-Add your screenshot here.
+![](screenshots/myAss4sc5.JPG)
 
 ---
 
@@ -137,7 +137,9 @@ Add a screenshot of the Application Pipeline log showing:
 * Zero failed hosts
 * Zero unreachable hosts
 
-Add your screenshot here.
+![](screenshots/myAss4sc6.JPG)
+
+
 
 > Do not expose the SSH private key, MySQL password, Client Secret, or complete database connection string.
 
@@ -162,7 +164,7 @@ Add a browser screenshot showing:
 
 The screenshot may show a product, cart, or successful order view.
 
-Add your screenshot here.
+![](screenshots/myAss4sc7.JPG)
 
 > Do not expose credentials or sensitive information.
 
@@ -172,15 +174,15 @@ Add your screenshot here.
 
 ## Frontend Application URL
 
-[Paste your final EpicBook application URL here.]
+http://16.16.65.205/
 
 ## Infrastructure Repository URL
 
-[Paste your Infrastructure Repository URL here.]
+http://github.com/accelage/infra-epicbook
 
 ## Application Repository URL
 
-[Paste your Application Repository URL here.]
+http://github.com/accelage/theepicbook
 
 ---
 
@@ -188,7 +190,11 @@ Add your screenshot here.
 
 Write a short explanation of why separate Infrastructure and Application Repositories were used.
 
-[Write your explanation here.]
+Separate Infrastructure and Application Repositories were used to maintain a clear separation of responsibilities.
+
+The Infrastructure Repository contains Terraform and infrastructure-related configuration used to provision and manage cloud resources. The Application Repository contains the application code, deployment configuration, Ansible files, and CI/CD workflow used to build and deploy the application.
+
+This separation reduces the risk of application changes accidentally modifying infrastructure and makes it easier to manage infrastructure and application lifecycles independently. It also supports clearer access control, review, and troubleshooting because each repository has a defined purpose.
 
 ---
 
