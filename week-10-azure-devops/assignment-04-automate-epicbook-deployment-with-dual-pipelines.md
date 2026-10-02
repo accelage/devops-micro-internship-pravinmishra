@@ -201,7 +201,11 @@ Write a short explanation of how the following non-sensitive Terraform outputs w
 * `backend_private_ip`
 * `mysql_fqdn`
 
-[Write your explanation here.]
+After the Infrastructure Pipeline successfully provisioned the Azure resources, I collected only the non-sensitive Terraform outputs required by Ansible: app_public_ip, backend_ansible_host, backend_private_ip, and mysql_fqdn.
+
+These values were transferred to the Application Repository and used to configure the Ansible inventory and application deployment variables. The frontend public IP provided the reachable host for deployment, while backend_ansible_host enabled Ansible to reach the backend VM through the intended SSH path. The backend_private_ip was used for private communication between the frontend/Nginx layer and the backend application, and mysql_fqdn identified the Azure Database for MySQL server used by EpicBook.
+
+Only non-sensitive infrastructure outputs were transferred. Credentials and secrets were handled separately: the SSH private key was stored using Azure DevOps Secure Files, and the MySQL password was stored as a secret pipeline variable. Terraform state, private keys, passwords, Azure Client Secrets, and other sensitive identifiers were not committed to either repository
 
 ---
 
@@ -216,11 +220,11 @@ Add a screenshot of your LinkedIn post showing:
 * Post text
 * At least one image or link
 
-Add your screenshot here.
+![](screenshots/linkedPost.JPG)
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here.]
+https://www.linkedin.com/posts/topedavids_devops-microsoftazure-azuredevops-share-7511814465143791617-OoO6/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA
 
 Your post must include:
 

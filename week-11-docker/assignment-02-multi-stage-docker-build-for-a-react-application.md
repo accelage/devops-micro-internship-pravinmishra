@@ -30,7 +30,7 @@ cat .dockerignore
 
 The file must exclude `node_modules`, `build`, and `.env`.
 
-Add your screenshot here.
+![](screenshots/Ass2sc1.JPG)
 
 ---
 
@@ -46,7 +46,7 @@ Create a baseline single-stage Docker image and run the application on port 3000
 
 Add a screenshot showing the completed `Dockerfile.single`.
 
-Add your screenshot here.
+![](screenshots/Ass2sc2.JPG)
 
 ---
 
@@ -60,7 +60,7 @@ http://localhost:3000
 
 Ensure that your full name is visible in the application.
 
-Add your screenshot here.
+![](screenshots/Ass2sc3.JPG)
 
 ---
 
@@ -76,7 +76,7 @@ Create an optimized multi-stage Docker image with separate builder and Nginx run
 
 Add a screenshot showing the completed multi-stage `Dockerfile`.
 
-Add your screenshot here.
+![](screenshots/Ass2sc4.JPG)
 
 ---
 
@@ -90,7 +90,7 @@ http://localhost
 
 Ensure that your full name is visible in the application.
 
-Add your screenshot here.
+![](screenshots/Ass2sc5.JPG)
 
 ---
 
@@ -117,7 +117,8 @@ react-single:latest
 react-multistage:latest
 ```
 
-Add your screenshot here.
+![](screenshots/Ass2sc6a.JPG)
+![](screenshots/Ass2sc6b.JPG)
 
 ---
 
