@@ -1,6 +1,6 @@
 # Assignment — Deploy EpicBook with Terraform and Ansible Roles
 
-Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ---
 
@@ -669,7 +669,6 @@ Confirm that the following files are included in your GitHub repository or assig
 - Add all required notes and assignment question answers.
 - Add your LinkedIn post URL.
 - Do not expose SSH private keys, passwords, cloud credentials, database credentials, Terraform state files, subscription IDs, or account IDs.
-- Submit only your Google Doc link.
 
 ---
 
@@ -706,7 +705,6 @@ Confirm that the following files are included in your GitHub repository or assig
 - [ ] LinkedIn post published
 - [ ] LinkedIn post URL added
 - [ ] No sensitive information is exposed
-- [ ] Google Doc is accessible
 
 ---
 
@@ -730,4 +728,4 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ---
 
-*This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+*This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track.*

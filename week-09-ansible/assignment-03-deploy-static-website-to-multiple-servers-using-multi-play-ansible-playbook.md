@@ -1,6 +1,15 @@
 # Assignment 03 — Deploy a Static Website to Multiple Servers Using a Multi-Play Ansible Playbook
 
-Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+Part of the DevOps Micro Internship (DMI) with Agentic AI
+
+---
+
+## Student Details
+
+**Full Name:** Add your full name here  
+**Cloud Platform Used:** AWS / Azure  
+**Server 1 URL:** `http://<SERVER_1_PUBLIC_IP>`  
+**Server 2 URL:** `http://<SERVER_2_PUBLIC_IP>`
 
 ---
 
@@ -18,9 +27,9 @@ You may use either AWS EC2 instances or Azure Virtual Machines as your managed s
 
 Create the required folders and files for the Ansible project.
 
-### Evidence
+## Evidence
 
-#### Screenshot 1 — Terminal or VS Code showing the complete `static-web` project structure
+### Screenshot 1 — Terminal or VS Code showing the complete `static-web` project structure
 
 ![](screenshots/Ass3sc1.JPG)
 
@@ -32,15 +41,15 @@ Create the required folders and files for the Ansible project.
 
 Add both Ubuntu servers to the Ansible inventory.
 
-### Evidence
+## Evidence
 
-#### Screenshot 2 — Output of `ansible-inventory -i inventory.ini --graph` showing `web1` and `web2`
+### Screenshot 2 — Output of `ansible-inventory -i inventory.ini --graph` showing `web1` and `web2`
 
 ![](screenshots/Ass3sc2.JPG)
 
 ---
 
-### Configuration File
+## Configuration File
 
 Copy and paste the complete contents of your `inventory.ini` file below:
 
