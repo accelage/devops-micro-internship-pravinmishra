@@ -172,8 +172,6 @@ Terraform was used to provision the target VM, while Ansible configured Nginx an
 
 Finally, the deployment is verified by checking the deployed files, Nginx status, HTTP response, and the application through the browser.
 
-[Write your summary here.]
-
 ---
 
 # LinkedIn Requirement
