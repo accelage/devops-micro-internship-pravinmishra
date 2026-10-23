@@ -3,7 +3,7 @@
 ![Cohort](https://img.shields.io/badge/Cohort-3-blue?style=for-the-badge)
 ![Program](https://img.shields.io/badge/DevOps_Micro_Internship-Temitope_ADEMOLA_DAVIDS-orange?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge)
-![Weeks](https://img.shields.io/badge/Weeks_Completed-10%2F15-green?style=for-the-badge)
+![Weeks](https://img.shields.io/badge/Weeks_Completed-12%2F15-green?style=for-the-badge)
 
 > 👋 **New here?** Read the [submission instructions](./onboarding) first — how to fork, fill in, and submit your assignments.
 > Find all the required links & assignment guidelines from here [Required links](./dmi_cohort3_resources.md)
@@ -102,11 +102,11 @@ This is not a course. It is an internship-style program — real deployments, re
  **Week 10 → Azure DevOps CI/CD** -->
  [![Week 10 – CI/CD](./badges/week-10.svg)](./week-10-azure-devops/)git 
 
-<!-- Week 11 → Docker -->
-<!-- [![Week 11 – Docker](./badges/week-11.svg)](./week-11-docker/) -->
+ **Week 11 → Docker** -->
+ [![Week 11 – Docker](./badges/week-11.svg)](./week-11-docker/) 
 
-<!-- Week 12 → Kubernetes -->
-<!-- [![Week 12 – K8s](./badges/week-12.svg)](./week-12-kubernetes/) -->
+ **Week 12 → Kubernetes** -->
+ [![Week 12 – K8s](./badges/week-12.svg)](./week-12-kubernetes/)
 
 <!-- Week 13 → Final Project / Capstone -->
 <!-- [![Week 13 – Capstone](./badges/week-13.svg)](./week-13-final-project/) -->
@@ -142,9 +142,9 @@ This is not a course. It is an internship-style program — real deployments, re
 | 07 | Azure Cloud | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/topedavids_microsoftazure-cloudengineering-azurevm-share-7497458065101938688-SncV/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA | https://medium.com/@tope.adedavids/my-epicbook-three-tier-app-deployment-project-89afbbd4ac9d |
 | 08 | Terraform | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/topedavids_aws-terraform-devops-activity-7506665562115121153-oehV?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA | https://medium.com/@tope.adedavids/building-a-production-style-3-tier-book-review-app-on-aws-with-terraform-and-claude-code-57b10881f3c9 |
 | 09 | Ansible | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/topedavids_devops-azure-cloudcomputing-share-7508222694102925312-Ysvd/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA | https://medium.com/@tope.adedavids/deploying-epicbook-on-microsoft-azure-a-hands-on-journey-through-cloud-infrastructure-networking-fcf80322ff9b |
-| 10 | Azure DevOps (CI/CD) | 🔄 ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/topedavids_devops-cicd-azuredevops-share-7509985612142194688-cL78/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA | https://medium.com/@tope.adedavids/building-a-multi-stage-react-ci-cd-pipeline-with-azure-devops-c93856383380 |
-| 11 | Docker | 🔄 In Progress | ⏳ Pending | — | — |
-| 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
+| 10 | Azure DevOps (CI/CD) | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/topedavids_devops-cicd-azuredevops-share-7509985612142194688-cL78/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA | https://medium.com/@tope.adedavids/building-a-multi-stage-react-ci-cd-pipeline-with-azure-devops-c93856383380 |
+| 11 | Docker | ✅ Completed<br> | ✅ Solved | https://www.linkedin.com/posts/topedavids_devops-docker-dockercompose-share-7519537656481861632-03lX/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA | https://medium.com/@tope.adedavids/deploying-the-epicbook-a-production-oriented-docker-compose-stack-with-security-persistence-and-8d9e71a6b0f8 |
+| 12 | Kubernetes | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/topedavids_devops-kubernetes-claudecode-share-7519542600387768321-f_Em/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA | https://medium.com/@tope.adedavids/ai-assisted-kubernetes-incident-triage-building-a-read-only-incident-response-workflow-with-bash-a03f6188f276 |
 | 13 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
 
 **Status:** ⬜ Not Started &nbsp;|&nbsp; 🔄 In Progress &nbsp;|&nbsp; ✅ Completed<br>

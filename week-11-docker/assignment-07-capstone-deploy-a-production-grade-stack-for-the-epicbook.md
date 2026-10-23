@@ -573,7 +573,7 @@ Write your note here.
 
 # Final Public Application URL
 
-**EpicBook URL:** `http://<VM_PUBLIC_IP>`
+**EpicBook URL:** `http://58.143.67.2`
 
 Replace the placeholder with your working public URL.
 
@@ -581,7 +581,8 @@ Replace the placeholder with your working public URL.
 
 # GitHub Repository URL
 
-**Your Fork or Repository URL:** `Add your GitHub repository URL here`
+**Your Fork or Repository URL:** 
+(https://github.com/accelage/devops-micro-internship-pravinmishra)
 
 ---
 
@@ -600,7 +601,8 @@ Your post must include:
 
 ### Evidence
 
-**LinkedIn Post URL:** `Add your LinkedIn post URL here`
+**LinkedIn Post URL:** 
+https://www.linkedin.com/posts/topedavids_devops-docker-dockercompose-share-7519537656481861632-03lX/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA
 
 #### LinkedIn Post Screenshot
 
