@@ -22,7 +22,7 @@ Review the EpicBook repository and design the intended application architecture.
 
 Add a terminal screenshot showing the EpicBook project structure after cloning the repository.
 
-Add your screenshot here.
+![](screenshots/Ass7sc1.JPG)
 
 ---
 
@@ -41,7 +41,8 @@ Add a screenshot of your architecture diagram showing:
 
 Add your full name inside the diagram or as a clear caption below it.
 
-Add your screenshot here.
+![](screenshots/Ass7sc2.JPG)
+![](screenshots/Ass7sc2a.JPG)
 
 ---
 
@@ -55,7 +56,7 @@ docs/02-env-and-ports.md
 
 It must document environment-variable names, internal ports, persistent-data details, and the health-check method. Do not expose real credentials or values.
 
-Add your screenshot here.
+![](screenshots/Ass7sc3.JPG)
 
 ---
 
@@ -77,7 +78,7 @@ Add a screenshot showing `backend/Dockerfile`, including:
 - Internal backend port
 - Non-root user configuration
 
-Add your screenshot here.
+![](screenshots/Ass7sc4.JPG)
 
 ---
 
@@ -88,7 +89,7 @@ Add a screenshot showing `frontend/Dockerfile`, including:
 - Nginx runtime image
 - Static frontend files copied to the Nginx web root
 
-Add your screenshot here.
+![](screenshots/Ass7sc5.JPG)
 
 ---
 
@@ -101,7 +102,7 @@ backend/.dockerignore
 frontend/.dockerignore
 ```
 
-Add your screenshot here.
+![](screenshots/Ass7sc6.JPG)
 
 ---
 
@@ -115,7 +116,7 @@ Add a terminal screenshot showing successful builds of:
 
 The screenshot must also show the baseline and optimized backend image-size comparison.
 
-Add your screenshot here.
+![](screenshots/Ass7sc7.JPG)
 
 ---
 
@@ -123,7 +124,8 @@ Add your screenshot here.
 
 Add a terminal screenshot showing the optimized backend container running as a non-root user.
 
-Add your screenshot here.
+![](screenshots/Ass7sc8.JPG)
+![](screenshots/Ass7sc8b.JPG)
 
 ---
 
@@ -159,7 +161,7 @@ backend
 database
 ```
 
-Add your screenshot here.
+![](screenshots/Ass7sc9.JPG)
 
 ---
 
@@ -171,7 +173,7 @@ Add a screenshot showing:
 - `back-tier` network
 - `db_data` named volume
 
-Add your screenshot here.
+![](screenshots/Ass7sc10.JPG)
 
 ---
 
@@ -179,7 +181,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing successful Docker Compose validation without exposing environment-variable values or secrets.
 
-Add your screenshot here.
+![](screenshots/Ass7sc11.JPG)
 
 ---
 
@@ -195,7 +197,7 @@ Configure health checks and ensure services start only after their dependencies 
 
 Add a screenshot showing the backend application configuration for the `/health` endpoint.
 
-Add your screenshot here.
+![](screenshots/Ass7sc12.JPG)
 
 ---
 
@@ -203,7 +205,7 @@ Add your screenshot here.
 
 Add a screenshot showing `docker-compose.yml` with health checks for MySQL and the backend.
 
-Add your screenshot here.
+![](screenshots/Ass7sc13.JPG)
 
 ---
 
@@ -215,7 +217,7 @@ Add a screenshot showing:
 - Reverse-proxy health check
 - `depends_on` conditions using `service_healthy`
 
-Add your screenshot here.
+![](screenshots/Ass7sc14.JPG)
 
 ---
 
@@ -223,7 +225,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing Docker Compose service status. The database, backend, frontend, and reverse proxy must be running successfully.
 
-Add your screenshot here.
+![](screenshots/Ass7sc15.JPG)
 
 ---
 
@@ -231,7 +233,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing a successful response from the public application health endpoint through the reverse proxy.
 
-Add your screenshot here.
+![](screenshots/Ass7sc16.jpeg)
 
 ---
 
@@ -245,7 +247,7 @@ docs/03-healthchecks-and-depends-on.md
 
 Explain the health-check method for each service and the startup dependency order.
 
-Add your screenshot here.
+![](screenshots/Ass7sc17.jpeg)
 
 ---
 
@@ -268,7 +270,7 @@ It must show routes for:
 - API requests
 - Health endpoint
 
-Add your screenshot here.
+![](screenshots/Ass7sc18.jpeg)
 
 ---
 
@@ -276,7 +278,7 @@ Add your screenshot here.
 
 Add a screenshot of `docker-compose.yml` showing that only the `reverse-proxy` service publishes port 80.
 
-Add your screenshot here.
+![](screenshots/Ass7sc19.jpeg)
 
 ---
 
@@ -289,7 +291,7 @@ Add a terminal screenshot showing successful requests through the selected rever
 - One static asset
 - Health endpoint
 
-Add your screenshot here.
+![](screenshots/Ass7sc20.jpeg)
 
 ---
 
@@ -299,7 +301,7 @@ Add a browser screenshot showing the EpicBook application loaded through the VM 
 
 Add your full name as a clear caption below the screenshot.
 
-Add your screenshot here.
+![](screenshots/Ass7sc21.jpeg)
 
 ---
 
@@ -313,7 +315,7 @@ docs/04-proxy-routing-and-cors.md
 
 Explain the proxy routes and state whether CORS was required and why.
 
-Add your screenshot here.
+![](screenshots/Ass7sc22.jpeg)
 
 ---
 
@@ -329,7 +331,7 @@ Verify MySQL persistence and perform a controlled backup and restore drill.
 
 Add a terminal screenshot showing the `db_data` named volume and its MySQL mount configuration.
 
-Add your screenshot here.
+![](screenshots/Ass7sc23.jpeg)
 
 ---
 
@@ -337,7 +339,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing the selected test data before the backup and restore drill.
 
-Add your screenshot here.
+![](screenshots/Ass7sc24.jpeg)
 
 ---
 
@@ -345,7 +347,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing successful backup creation and the backup file stored in the host backup directory.
 
-Add your screenshot here.
+![](screenshots/Ass7sc25.jpeg)
 
 ---
 
@@ -353,7 +355,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing that the selected test record was removed during the controlled data-loss test.
 
-Add your screenshot here.
+![](screenshots/Ass7sc26.jpeg)
 
 ---
 
@@ -361,7 +363,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing successful restore and verification that the deleted test record is available again.
 
-Add your screenshot here.
+![](screenshots/Ass7sc27.jpeg)
 
 ---
 
@@ -371,7 +373,7 @@ Add a terminal screenshot showing that database data remains available after a n
 
 Do not use `docker compose down -v`.
 
-Add your screenshot here.
+![](screenshots/Ass7sc28.jpeg)
 
 ---
 
@@ -385,7 +387,7 @@ docs/05-persistence-and-backup.md
 
 Include the backup plan and restore procedure.
 
-Add your screenshot here.
+![](screenshots/Ass7sc29.jpeg)
 
 ---
 
@@ -405,7 +407,7 @@ Add a screenshot showing:
 - Proxy log format
 - Docker Compose host log-directory bind mount
 
-Add your screenshot here.
+![](screenshots/Ass7sc30.jpeg)
 
 ---
 
@@ -416,7 +418,7 @@ Add a terminal screenshot showing:
 - Selected reverse-proxy logs available from the host directory after a proxy restart
 - Backend logs displayed through Docker Compose
 
-Add your screenshot here.
+![](screenshots/Ass7sc31.jpeg)
 
 ---
 
@@ -450,7 +452,7 @@ Add a cloud-console screenshot showing:
 - SSH port 22 restricted to your IP address
 - HTTP port 80 allowed from Anywhere
 
-Add your screenshot here.
+![](screenshots/Ass7sc32.jpeg)
 
 ---
 
@@ -462,7 +464,7 @@ Add a VM terminal screenshot showing:
 - Successful public health or API response
 - No published database, frontend, or backend ports
 
-Add your screenshot here.
+![](screenshots/Ass7sc33.jpeg)
 
 ---
 
@@ -472,7 +474,7 @@ Add a browser screenshot showing the EpicBook application loaded through the VM 
 
 Add your full name as a clear caption below the screenshot.
 
-Add your screenshot here.
+![](screenshots/Ass7sc34.jpeg)
 
 ---
 
@@ -502,7 +504,7 @@ Optionally automate image build, image push, and deployment through GitHub Actio
 
 Add a screenshot showing a successful pipeline run with build, image push, deployment, and verification stages.
 
-Add your screenshot here.
+![](screenshots/Ass7sc35.jpeg)
 
 ---
 
@@ -537,7 +539,7 @@ Add a terminal screenshot showing:
 - Backend restart
 - Successful health-check recovery
 
-Add your screenshot here.
+![](screenshots/Ass7sc35.jpeg)
 
 ---
 
@@ -550,7 +552,7 @@ Add a terminal screenshot showing:
 - Database restart
 - Successful application recovery
 
-Add your screenshot here.
+![](screenshots/Ass7sc36.jpeg)
 
 ---
 
