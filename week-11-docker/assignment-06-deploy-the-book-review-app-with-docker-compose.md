@@ -174,7 +174,7 @@ docker compose logs mysql backend --tail=50
 
 The logs must show MySQL readiness and successful backend database connection.
 
-Add your screenshot here.
+![](screenshots/Ass6sc11.JPG)
 
 ---
 
@@ -192,7 +192,8 @@ Add a browser screenshot showing successful user registration or login.
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![](screenshots/Ass6sc12.JPG)
+![](screenshots/Ass6sc12b.JPG)
 
 ---
 
@@ -202,7 +203,7 @@ Add a browser screenshot showing a created book review visible in the applicatio
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![](screenshots/Ass6sc13.JPG)
 
 ---
 
@@ -213,7 +214,7 @@ Add a browser developer-tools screenshot with:
 - The Network tab showing a successful API request
 - The Console drawer showing no CORS error after the API interaction
 
-Add your screenshot here.
+![](screenshots/Ass6sc14.JPG)
 
 ---
 
@@ -231,7 +232,8 @@ Add a browser screenshot showing the registered user or created review before th
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![](screenshots/Ass6sc15.JPG)
+![](screenshots/Ass6sc15b.JPG)
 
 ---
 
@@ -247,7 +249,7 @@ docker compose ps
 
 Do not use `docker compose down -v`.
 
-Add your screenshot here.
+![](screenshots/Ass6sc16.JPG)
 
 ---
 
@@ -257,7 +259,7 @@ Add a browser screenshot showing the same registered user or review after the st
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![](screenshots/Ass6sc17.JPG)
 
 ---
 
@@ -277,13 +279,13 @@ Write a short explanation of 5–8 lines covering:
 - When a full reset is useful
 - Why a full reset must not be used before persistence evidence is captured
 
-Write your explanation here.
+docker compose down removes containers and networks but preserves named volumes, which must be kept to prevent MySQL data from being permanently deleted. Removing these named volumes destroys the underlying database files entirely. A full reset using the -v flag is useful when troubleshooting corrupted states or testing clean deployments from scratch. However, a full reset must never be used before capturing persistence evidence, as it wipes the exact database states and logs needed to prove data was surviving container restarts
 
 ---
 
 # Final Public Frontend URL
 
-**Frontend URL:** `http://<VM_PUBLIC_IP>:<FRONTEND_PORT>`
+**Frontend URL:** http://40.76.116.79:3000
 
 Replace the placeholder with your working application URL.
 
@@ -291,7 +293,7 @@ Replace the placeholder with your working application URL.
 
 # GitHub Repository URL
 
-**Your Fork or Repository URL:** `Add your GitHub repository URL here`
+**Your Fork or Repository URL:** https://linkedin.com/accelage
 
 ---
 
@@ -303,11 +305,12 @@ Create a LinkedIn post about the Book Review App deployment and what you learned
 
 ### Evidence
 
-**LinkedIn Post URL:** `Add your LinkedIn post URL here`
+**LinkedIn Post URL:** https://www.linkedin.com/posts/topedavids_devops-devopsmicrointernship-terraform-share-7511791404894003201-2yIt/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA
+
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of your published LinkedIn post here.
+![](screenshots/03linkedin.JPG)
 
 ---
 
