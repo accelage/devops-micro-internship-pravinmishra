@@ -278,11 +278,11 @@ It ensures efficient utilization of cluster resources and reduces infrastructure
 
 #### Screenshot 13 — Published LinkedIn post showing your name, the required explanation, and the attached Kubernetes screenshot
 
-Add your screenshot here.
+![](screenshots/replicaset_Deployment.jpeg)
 
 #### Linkedin Post Link
 
-Add your link here
+https://www.linkedin.com/posts/topedavids_kubernetes-devops-replicaset-share-7523371261587107841-sktC/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7523371264728571904&highlightedUpdateType=SOCIAL_SHARE&origin=SOCIAL_SHARE&utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA
 
 ---
 

@@ -244,11 +244,11 @@ Share what you learned about NodePort Services, backend Pods, and network access
 
 #### Screenshot 14 — Published LinkedIn post about your NodePort Service lab
 
-Add your screenshot here.
+![](screenshots/replicaset_Deployment.jpeg)
 
 #### Linkedin post link
 
-Add your Linkdin post link.
+https://www.linkedin.com/posts/topedavids_kubernetes-devops-replicaset-share-7523371261587107841-sktC/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7523371264728571904&highlightedUpdateType=SOCIAL_SHARE&origin=SOCIAL_SHARE&utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA
 
 ---
 

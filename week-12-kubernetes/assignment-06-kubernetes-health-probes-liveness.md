@@ -201,7 +201,7 @@ Complete this section only if you attempt Task 5. Otherwise, mark it as “Not a
 
 #### Optional Screenshot — Pod output showing the RESTARTS count increasing during the restart-loop observation
 
-Add your screenshot here if attempted.
+
 
 No specific restart count or CrashLoopBackOff status is required.
 
@@ -233,11 +233,11 @@ Share what you learned about Kubernetes liveness probes, container restarts, and
 
 #### Screenshot 12 — Published LinkedIn post
 
-Add your screenshot here.
+![](screenshots/replicaset_Deployment.jpeg)
 
 #### Linkedin post URL
 
-Add URl here
+https://www.linkedin.com/posts/topedavids_kubernetes-devops-replicaset-share-7523371261587107841-sktC/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7523371264728571904&highlightedUpdateType=SOCIAL_SHARE&origin=SOCIAL_SHARE&utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA
 
 ---
 

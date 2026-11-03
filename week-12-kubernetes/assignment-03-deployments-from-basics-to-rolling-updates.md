@@ -161,7 +161,7 @@ I also scaled my Deployment from two Pods to five and back to two!
 
 #### Screenshot 12 — Published WhatsApp Status showing your Kubernetes Deployment message and generated DMI leaderboard progress link
 
-Add your screenshot here.
+
 
 A draft or editing screen is not sufficient.
 
@@ -171,7 +171,15 @@ A draft or editing screen is not sufficient.
 
 Write a short note explaining how Deployments manage ReplicaSets, perform rolling updates and rollbacks, and scale Pods.
 
-Add your answer here.
+A Deployment is the controller that manages the full lifecycle of an application. It does not create Pods directly. Instead, it creates and manages ReplicaSets, and each ReplicaSet creates and maintains the Pods. In this lab, applying nginx-deployment.yaml created a Deployment, which automatically created a ReplicaSet, which in turn created two NGINX Pods. The Deployment holds the desired state (image, replica count, strategy), while the ReplicaSet handles self-healing by keeping the right number of Pods running.
+
+Rolling updates: When the image was changed from nginx:1.21.1 to nginx:1.23.1 with kubectl set image, the Deployment created a new ReplicaSet for the new version and gradually replaced the old Pods. With maxSurge: 1 and maxUnavailable: 0, the Deployment was allowed to add one extra Pod above the desired count while never dropping below two available Pods. A new Pod had to become ready before an old one was removed, so the application stayed available throughout the update. After the rollout, the old ReplicaSet was scaled down to 0 Pods but kept in the cluster, while the new ReplicaSet ran the two Pods. This differs from the Recreate strategy, which stops all old Pods before starting new ones and causes downtime.
+
+Rollbacks: Because the Deployment keeps the previous ReplicaSet, it stores a revision history. Running kubectl rollout undo deployment/nginx-deployment returned the Deployment to the earlier revision using nginx:1.21.1. The old ReplicaSet was scaled back up and the newer one was scaled down, using the same gradual process as the update. The kubectl rollout history output showed the revisions that were created by the update and the rollback.
+
+Scaling: Running kubectl scale deployment nginx-deployment --replicas=5 changed the desired replica count, and the Deployment's ReplicaSet created three more Pods until five were running. Scaling back to two removed the extra Pods until only two remained. Scaling does not create a new revision because the Pod template does not change. One important note is that scaling with a command is temporary compared with the manifest. If the YAML file still says replicas: 2 and is reapplied, the declarative state wins and the count returns to two.
+
+Overall, Deployments add rollout control, revision history and safe updates on top of the self-healing and scaling that ReplicaSets already provide, which is why they are the standard choice for stateless production workloads.
 
 ---
 

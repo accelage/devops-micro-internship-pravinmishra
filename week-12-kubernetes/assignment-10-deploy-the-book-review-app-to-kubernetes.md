@@ -200,7 +200,7 @@ Prove that the frontend, backend, and MySQL database work together and collect o
 
 #### Screenshot 18 — Optional: Kubernetes dashboard
 
-Add your screenshot here, or write “Not attempted.”
+Not Attempted
 
 Multiple images may be included under a screenshot number when needed to demonstrate the complete user flow.
 
@@ -230,11 +230,11 @@ Explain your three-tier architecture, demonstrate the working application, and s
 
 #### Screenshot 20 — Published LinkedIn post about your Book Review App deployment on Kubernetes
 
-Add your screenshot here.
+![](screenshots/mylinkpost.JPG)
 
 ### LinkedIn Post URL
 
-Add your published LinkedIn post URL here.
+https://www.linkedin.com/posts/topedavids_kubernetes-devops-replicaset-share-7523371261587107841-sktC/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7523371264728571904&highlightedUpdateType=SOCIAL_SHARE&origin=SOCIAL_SHARE&utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA
 
 ---
 
