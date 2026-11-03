@@ -43,13 +43,13 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Award | Post |
 |------|-------|------|
-| <!-- e.g. Week 03 --> | <!-- 🏆 Champion of the Week --> | <!-- [LinkedIn Post](#) --> |
+| Week 11 | 🏆 Champion of the Week | https://www.linkedin.com/posts/topedavids_docker-continuouslearning-championoftheweek-share-7523384340274343936-BEnX/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7523384341708640256&highlightedUpdateType=SOCIAL_SHARE&origin=SOCIAL_SHARE&utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA |
 
 ### Leaderboard
 
 <!-- Add your cohort leaderboard rank here as you progress -->
 
-> 🥇 Cohort 3 Rank: **#__** <!-- Update this each week -->
+> 🥇 Cohort 3 Rank: **#_8_** <!-- Update this each week -->
 
 ---
 
