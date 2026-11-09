@@ -230,11 +230,11 @@ Explain your three-tier architecture, demonstrate the working application, and s
 
 #### Screenshot 20 — Published LinkedIn post about your Book Review App deployment on Kubernetes
 
-![](screenshots/mylinkpost.JPG)
+![](screenshots/assignment10sc.JPG)
 
 ### LinkedIn Post URL
 
-https://www.linkedin.com/posts/topedavids_kubernetes-devops-replicaset-share-7523371261587107841-sktC/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7523371264728571904&highlightedUpdateType=SOCIAL_SHARE&origin=SOCIAL_SHARE&utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA
+https://www.linkedin.com/posts/topedavids_kubernetes-devops-cloudcomputing-share-7525561315994787840-L6-y/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAySvXcBSksEGgTHjx1oRy7rOmDlzNAFmEA
 
 ---
 
